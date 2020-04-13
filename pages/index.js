@@ -5,7 +5,7 @@ export default function Index() {
     <div>
       <Layout>
         <h1>👋 Hello! My name is Andre.</h1>
-        <h2>Design Systems and User Experience. Currently working at Reify Health.</h2>
+        <h2>I am playing with <a href='https://nextjs.org/docs/getting-started'>next.js</a></h2>
 
         <div className='row'>
           <div className='bg-red'></div>
