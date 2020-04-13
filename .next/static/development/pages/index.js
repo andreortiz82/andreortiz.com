@@ -38,20 +38,38 @@ var navData = [{
 
 var Header = function Header() {
   return __jsx("div", {
+    className: "Header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10,
       columnNumber: 3
     }
-  }, navData.map(function (item, index) {
+  }, __jsx("div", {
+    className: "logo",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 5
+    }
+  }, __jsx("img", {
+    className: "logo__img",
+    src: "/images/logo.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 7
+    }
+  })), navData.map(function (item, index) {
     return __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
       key: index,
       href: item.path,
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12,
+        lineNumber: 15,
         columnNumber: 15
       }
     }, __jsx("a", {
@@ -59,7 +77,7 @@ var Header = function Header() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13,
+        lineNumber: 16,
         columnNumber: 17
       }
     }, item.title));
@@ -4425,36 +4443,68 @@ function Index() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
+      lineNumber: 5,
       columnNumber: 5
     }
   }, __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 6,
       columnNumber: 7
     }
   }, __jsx("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
-      columnNumber: 9
-    }
-  }, "Andre Ortiz"), __jsx("h2", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 7,
       columnNumber: 9
     }
-  }, "Design Systems and User Experience. Currently working at Reify Health.")));
+  }, "\uD83D\uDC4B Hello! My name is Andre."), __jsx("h2", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 9
+    }
+  }, "Design Systems and User Experience. Currently working at Reify Health."), __jsx("div", {
+    className: "row",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 9
+    }
+  }, __jsx("div", {
+    className: "bg-red",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 11
+    }
+  }), __jsx("div", {
+    className: "bg-blue",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 11
+    }
+  }), __jsx("div", {
+    className: "bg-green",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13,
+      columnNumber: 11
+    }
+  }))));
 }
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fandreortiz%2FDesktop%2Fhelloandre%2Fpages%2Findex.js ***!
   \********************************************************************************************************************************/
@@ -4477,5 +4527,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

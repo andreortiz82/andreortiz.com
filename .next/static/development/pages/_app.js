@@ -15,25 +15,6 @@ module.exports = _arrayWithHoles;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/assertThisInitialized.js ***!
-  \**********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-function _assertThisInitialized(self) {
-  if (self === void 0) {
-    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-  }
-
-  return self;
-}
-
-module.exports = _assertThisInitialized;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/classCallCheck.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/classCallCheck.js ***!
@@ -121,49 +102,33 @@ module.exports = _createClass;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/getPrototypeOf.js ***!
-  \***************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./node_modules/@babel/runtime/helpers/esm/extends.js":
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-function _getPrototypeOf(o) {
-  module.exports = _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
-    return o.__proto__ || Object.getPrototypeOf(o);
-  };
-  return _getPrototypeOf(o);
-}
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _extends; });
+function _extends() {
+  _extends = Object.assign || function (target) {
+    for (var i = 1; i < arguments.length; i++) {
+      var source = arguments[i];
 
-module.exports = _getPrototypeOf;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/inherits.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/inherits.js ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var setPrototypeOf = __webpack_require__(/*! ./setPrototypeOf */ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js");
-
-function _inherits(subClass, superClass) {
-  if (typeof superClass !== "function" && superClass !== null) {
-    throw new TypeError("Super expression must either be null or a function");
-  }
-
-  subClass.prototype = Object.create(superClass && superClass.prototype, {
-    constructor: {
-      value: subClass,
-      writable: true,
-      configurable: true
+      for (var key in source) {
+        if (Object.prototype.hasOwnProperty.call(source, key)) {
+          target[key] = source[key];
+        }
+      }
     }
-  });
-  if (superClass) setPrototypeOf(subClass, superClass);
-}
 
-module.exports = _inherits;
+    return target;
+  };
+
+  return _extends.apply(this, arguments);
+}
 
 /***/ }),
 
@@ -305,29 +270,6 @@ module.exports = _nonIterableRest;
 
 /***/ }),
 
-/***/ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js ***!
-  \**************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var _typeof = __webpack_require__(/*! ../helpers/typeof */ "./node_modules/@babel/runtime/helpers/typeof.js");
-
-var assertThisInitialized = __webpack_require__(/*! ./assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-
-function _possibleConstructorReturn(self, call) {
-  if (call && (_typeof(call) === "object" || typeof call === "function")) {
-    return call;
-  }
-
-  return assertThisInitialized(self);
-}
-
-module.exports = _possibleConstructorReturn;
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/setPrototypeOf.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/setPrototypeOf.js ***!
@@ -408,6 +350,121 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./styles/styles.scss":
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./styles/styles.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".bg-red {\n  background: #FF4136;\n}\n\n.bg-red-10 {\n  background: #ff7169;\n}\n\n.bg-red-20 {\n  background: #ffa19c;\n}\n\n.bg-red-30 {\n  background: #ffd2cf;\n}\n\n.fill-red {\n  fill: #FF4136;\n}\n\n.fill-red-10 {\n  fill: #ff7169;\n}\n\n.fill-red-20 {\n  fill: #ffa19c;\n}\n\n.fill-red-30 {\n  fill: #ffd2cf;\n}\n\n.bdr-red {\n  border: 1px solid #FF4136;\n}\n\n.bdr-red-10 {\n  border: 1px solid #ff7169;\n}\n\n.bdr-red-20 {\n  border: 1px solid #ffa19c;\n}\n\n.bdr-red-30 {\n  border: 1px solid #ffd2cf;\n}\n\n.red {\n  color: #FF4136;\n}\n\n.red-10 {\n  color: #ff7169;\n}\n\n.red-20 {\n  color: #ffa19c;\n}\n\n.red-30 {\n  color: #ffd2cf;\n}\n\n.bg-orange {\n  background: #FF851B;\n}\n\n.bg-orange-10 {\n  background: #ffa04e;\n}\n\n.bg-orange-20 {\n  background: #ffbc81;\n}\n\n.bg-orange-30 {\n  background: #ffd7b4;\n}\n\n.fill-orange {\n  fill: #FF851B;\n}\n\n.fill-orange-10 {\n  fill: #ffa04e;\n}\n\n.fill-orange-20 {\n  fill: #ffbc81;\n}\n\n.fill-orange-30 {\n  fill: #ffd7b4;\n}\n\n.bdr-orange {\n  border: 1px solid #FF851B;\n}\n\n.bdr-orange-10 {\n  border: 1px solid #ffa04e;\n}\n\n.bdr-orange-20 {\n  border: 1px solid #ffbc81;\n}\n\n.bdr-orange-30 {\n  border: 1px solid #ffd7b4;\n}\n\n.orange {\n  color: #FF851B;\n}\n\n.orange-10 {\n  color: #ffa04e;\n}\n\n.orange-20 {\n  color: #ffbc81;\n}\n\n.orange-30 {\n  color: #ffd7b4;\n}\n\n.bg-yellow {\n  background: #FFDC00;\n}\n\n.bg-yellow-10 {\n  background: #ffe333;\n}\n\n.bg-yellow-20 {\n  background: #ffea66;\n}\n\n.bg-yellow-30 {\n  background: #fff199;\n}\n\n.fill-yellow {\n  fill: #FFDC00;\n}\n\n.fill-yellow-10 {\n  fill: #ffe333;\n}\n\n.fill-yellow-20 {\n  fill: #ffea66;\n}\n\n.fill-yellow-30 {\n  fill: #fff199;\n}\n\n.bdr-yellow {\n  border: 1px solid #FFDC00;\n}\n\n.bdr-yellow-10 {\n  border: 1px solid #ffe333;\n}\n\n.bdr-yellow-20 {\n  border: 1px solid #ffea66;\n}\n\n.bdr-yellow-30 {\n  border: 1px solid #fff199;\n}\n\n.yellow {\n  color: #FFDC00;\n}\n\n.yellow-10 {\n  color: #ffe333;\n}\n\n.yellow-20 {\n  color: #ffea66;\n}\n\n.yellow-30 {\n  color: #fff199;\n}\n\n.bg-green {\n  background: #2ECC40;\n}\n\n.bg-green-10 {\n  background: #54d964;\n}\n\n.bg-green-20 {\n  background: #7ee289;\n}\n\n.bg-green-30 {\n  background: #a8ebaf;\n}\n\n.fill-green {\n  fill: #2ECC40;\n}\n\n.fill-green-10 {\n  fill: #54d964;\n}\n\n.fill-green-20 {\n  fill: #7ee289;\n}\n\n.fill-green-30 {\n  fill: #a8ebaf;\n}\n\n.bdr-green {\n  border: 1px solid #2ECC40;\n}\n\n.bdr-green-10 {\n  border: 1px solid #54d964;\n}\n\n.bdr-green-20 {\n  border: 1px solid #7ee289;\n}\n\n.bdr-green-30 {\n  border: 1px solid #a8ebaf;\n}\n\n.green {\n  color: #2ECC40;\n}\n\n.green-10 {\n  color: #54d964;\n}\n\n.green-20 {\n  color: #7ee289;\n}\n\n.green-30 {\n  color: #a8ebaf;\n}\n\n.bg-blue {\n  background: #0074D9;\n}\n\n.bg-blue-10 {\n  background: #0d8eff;\n}\n\n.bg-blue-20 {\n  background: #40a6ff;\n}\n\n.bg-blue-30 {\n  background: #73beff;\n}\n\n.fill-blue {\n  fill: #0074D9;\n}\n\n.fill-blue-10 {\n  fill: #0d8eff;\n}\n\n.fill-blue-20 {\n  fill: #40a6ff;\n}\n\n.fill-blue-30 {\n  fill: #73beff;\n}\n\n.bdr-blue {\n  border: 1px solid #0074D9;\n}\n\n.bdr-blue-10 {\n  border: 1px solid #0d8eff;\n}\n\n.bdr-blue-20 {\n  border: 1px solid #40a6ff;\n}\n\n.bdr-blue-30 {\n  border: 1px solid #73beff;\n}\n\n.blue {\n  color: #0074D9;\n}\n\n.blue-10 {\n  color: #0d8eff;\n}\n\n.blue-20 {\n  color: #40a6ff;\n}\n\n.blue-30 {\n  color: #73beff;\n}\n\n.bg-pink {\n  background: #ef336c;\n}\n\n.bg-pink-10 {\n  background: #f3628e;\n}\n\n.bg-pink-20 {\n  background: #f692b0;\n}\n\n.bg-pink-30 {\n  background: #fac1d2;\n}\n\n.fill-pink {\n  fill: #ef336c;\n}\n\n.fill-pink-10 {\n  fill: #f3628e;\n}\n\n.fill-pink-20 {\n  fill: #f692b0;\n}\n\n.fill-pink-30 {\n  fill: #fac1d2;\n}\n\n.bdr-pink {\n  border: 1px solid #ef336c;\n}\n\n.bdr-pink-10 {\n  border: 1px solid #f3628e;\n}\n\n.bdr-pink-20 {\n  border: 1px solid #f692b0;\n}\n\n.bdr-pink-30 {\n  border: 1px solid #fac1d2;\n}\n\n.pink {\n  color: #ef336c;\n}\n\n.pink-10 {\n  color: #f3628e;\n}\n\n.pink-20 {\n  color: #f692b0;\n}\n\n.pink-30 {\n  color: #fac1d2;\n}\n\n.bg-purple {\n  background: #B10DC9;\n}\n\n.bg-purple-10 {\n  background: #d519f0;\n}\n\n.bg-purple-20 {\n  background: #dd49f3;\n}\n\n.bg-purple-30 {\n  background: #e679f6;\n}\n\n.fill-purple {\n  fill: #B10DC9;\n}\n\n.fill-purple-10 {\n  fill: #d519f0;\n}\n\n.fill-purple-20 {\n  fill: #dd49f3;\n}\n\n.fill-purple-30 {\n  fill: #e679f6;\n}\n\n.bdr-purple {\n  border: 1px solid #B10DC9;\n}\n\n.bdr-purple-10 {\n  border: 1px solid #d519f0;\n}\n\n.bdr-purple-20 {\n  border: 1px solid #dd49f3;\n}\n\n.bdr-purple-30 {\n  border: 1px solid #e679f6;\n}\n\n.purple {\n  color: #B10DC9;\n}\n\n.purple-10 {\n  color: #d519f0;\n}\n\n.purple-20 {\n  color: #dd49f3;\n}\n\n.purple-30 {\n  color: #e679f6;\n}\n\n.bg-navy {\n  background: #34495e;\n}\n\n.bg-navy-10 {\n  background: #46637f;\n}\n\n.bg-navy-20 {\n  background: #587ca0;\n}\n\n.bg-navy-30 {\n  background: #7796b4;\n}\n\n.fill-navy {\n  fill: #34495e;\n}\n\n.fill-navy-10 {\n  fill: #46637f;\n}\n\n.fill-navy-20 {\n  fill: #587ca0;\n}\n\n.fill-navy-30 {\n  fill: #7796b4;\n}\n\n.bdr-navy {\n  border: 1px solid #34495e;\n}\n\n.bdr-navy-10 {\n  border: 1px solid #46637f;\n}\n\n.bdr-navy-20 {\n  border: 1px solid #587ca0;\n}\n\n.bdr-navy-30 {\n  border: 1px solid #7796b4;\n}\n\n.navy {\n  color: #34495e;\n}\n\n.navy-10 {\n  color: #46637f;\n}\n\n.navy-20 {\n  color: #587ca0;\n}\n\n.navy-30 {\n  color: #7796b4;\n}\n\n.bg-aqua {\n  background: #7FDBFF;\n}\n\n.bg-aqua-10 {\n  background: #b2e9ff;\n}\n\n.bg-aqua-20 {\n  background: #e5f8ff;\n}\n\n.bg-aqua-30 {\n  background: white;\n}\n\n.fill-aqua {\n  fill: #7FDBFF;\n}\n\n.fill-aqua-10 {\n  fill: #b2e9ff;\n}\n\n.fill-aqua-20 {\n  fill: #e5f8ff;\n}\n\n.fill-aqua-30 {\n  fill: white;\n}\n\n.bdr-aqua {\n  border: 1px solid #7FDBFF;\n}\n\n.bdr-aqua-10 {\n  border: 1px solid #b2e9ff;\n}\n\n.bdr-aqua-20 {\n  border: 1px solid #e5f8ff;\n}\n\n.bdr-aqua-30 {\n  border: 1px solid white;\n}\n\n.aqua {\n  color: #7FDBFF;\n}\n\n.aqua-10 {\n  color: #b2e9ff;\n}\n\n.aqua-20 {\n  color: #e5f8ff;\n}\n\n.aqua-30 {\n  color: white;\n}\n\n.bg-teal {\n  background: #39CCCC;\n}\n\n.bg-teal-10 {\n  background: #62d6d6;\n}\n\n.bg-teal-20 {\n  background: #8ae1e1;\n}\n\n.bg-teal-30 {\n  background: #b3ebeb;\n}\n\n.fill-teal {\n  fill: #39CCCC;\n}\n\n.fill-teal-10 {\n  fill: #62d6d6;\n}\n\n.fill-teal-20 {\n  fill: #8ae1e1;\n}\n\n.fill-teal-30 {\n  fill: #b3ebeb;\n}\n\n.bdr-teal {\n  border: 1px solid #39CCCC;\n}\n\n.bdr-teal-10 {\n  border: 1px solid #62d6d6;\n}\n\n.bdr-teal-20 {\n  border: 1px solid #8ae1e1;\n}\n\n.bdr-teal-30 {\n  border: 1px solid #b3ebeb;\n}\n\n.teal {\n  color: #39CCCC;\n}\n\n.teal-10 {\n  color: #62d6d6;\n}\n\n.teal-20 {\n  color: #8ae1e1;\n}\n\n.teal-30 {\n  color: #b3ebeb;\n}\n\n.bg-maroon {\n  background: #85144b;\n}\n\n.bg-maroon-10 {\n  background: #b11b64;\n}\n\n.bg-maroon-20 {\n  background: #de217d;\n}\n\n.bg-maroon-30 {\n  background: #e44e97;\n}\n\n.fill-maroon {\n  fill: #85144b;\n}\n\n.fill-maroon-10 {\n  fill: #b11b64;\n}\n\n.fill-maroon-20 {\n  fill: #de217d;\n}\n\n.fill-maroon-30 {\n  fill: #e44e97;\n}\n\n.bdr-maroon {\n  border: 1px solid #85144b;\n}\n\n.bdr-maroon-10 {\n  border: 1px solid #b11b64;\n}\n\n.bdr-maroon-20 {\n  border: 1px solid #de217d;\n}\n\n.bdr-maroon-30 {\n  border: 1px solid #e44e97;\n}\n\n.maroon {\n  color: #85144b;\n}\n\n.maroon-10 {\n  color: #b11b64;\n}\n\n.maroon-20 {\n  color: #de217d;\n}\n\n.maroon-30 {\n  color: #e44e97;\n}\n\n.bg-lime {\n  background: #01FF70;\n}\n\n.bg-lime-10 {\n  background: #34ff8d;\n}\n\n.bg-lime-20 {\n  background: #67ffa9;\n}\n\n.bg-lime-30 {\n  background: #9affc6;\n}\n\n.fill-lime {\n  fill: #01FF70;\n}\n\n.fill-lime-10 {\n  fill: #34ff8d;\n}\n\n.fill-lime-20 {\n  fill: #67ffa9;\n}\n\n.fill-lime-30 {\n  fill: #9affc6;\n}\n\n.bdr-lime {\n  border: 1px solid #01FF70;\n}\n\n.bdr-lime-10 {\n  border: 1px solid #34ff8d;\n}\n\n.bdr-lime-20 {\n  border: 1px solid #67ffa9;\n}\n\n.bdr-lime-30 {\n  border: 1px solid #9affc6;\n}\n\n.lime {\n  color: #01FF70;\n}\n\n.lime-10 {\n  color: #34ff8d;\n}\n\n.lime-20 {\n  color: #67ffa9;\n}\n\n.lime-30 {\n  color: #9affc6;\n}\n\n.bg-olive {\n  background: #3D9970;\n}\n\n.bg-olive-10 {\n  background: #50b98a;\n}\n\n.bg-olive-20 {\n  background: #74c8a3;\n}\n\n.bg-olive-30 {\n  background: #99d6bb;\n}\n\n.fill-olive {\n  fill: #3D9970;\n}\n\n.fill-olive-10 {\n  fill: #50b98a;\n}\n\n.fill-olive-20 {\n  fill: #74c8a3;\n}\n\n.fill-olive-30 {\n  fill: #99d6bb;\n}\n\n.bdr-olive {\n  border: 1px solid #3D9970;\n}\n\n.bdr-olive-10 {\n  border: 1px solid #50b98a;\n}\n\n.bdr-olive-20 {\n  border: 1px solid #74c8a3;\n}\n\n.bdr-olive-30 {\n  border: 1px solid #99d6bb;\n}\n\n.olive {\n  color: #3D9970;\n}\n\n.olive-10 {\n  color: #50b98a;\n}\n\n.olive-20 {\n  color: #74c8a3;\n}\n\n.olive-30 {\n  color: #99d6bb;\n}\n\n.bg-white {\n  background: #fff;\n}\n\n.bg-white-10 {\n  background: white;\n}\n\n.bg-white-20 {\n  background: white;\n}\n\n.bg-white-30 {\n  background: white;\n}\n\n.fill-white {\n  fill: #fff;\n}\n\n.fill-white-10 {\n  fill: white;\n}\n\n.fill-white-20 {\n  fill: white;\n}\n\n.fill-white-30 {\n  fill: white;\n}\n\n.bdr-white {\n  border: 1px solid #fff;\n}\n\n.bdr-white-10 {\n  border: 1px solid white;\n}\n\n.bdr-white-20 {\n  border: 1px solid white;\n}\n\n.bdr-white-30 {\n  border: 1px solid white;\n}\n\n.white {\n  color: #fff;\n}\n\n.white-10 {\n  color: white;\n}\n\n.white-20 {\n  color: white;\n}\n\n.white-30 {\n  color: white;\n}\n\n.bg-light {\n  background: #f9f9f9;\n}\n\n.bg-light-10 {\n  background: white;\n}\n\n.bg-light-20 {\n  background: white;\n}\n\n.bg-light-30 {\n  background: white;\n}\n\n.fill-light {\n  fill: #f9f9f9;\n}\n\n.fill-light-10 {\n  fill: white;\n}\n\n.fill-light-20 {\n  fill: white;\n}\n\n.fill-light-30 {\n  fill: white;\n}\n\n.bdr-light {\n  border: 1px solid #f9f9f9;\n}\n\n.bdr-light-10 {\n  border: 1px solid white;\n}\n\n.bdr-light-20 {\n  border: 1px solid white;\n}\n\n.bdr-light-30 {\n  border: 1px solid white;\n}\n\n.light {\n  color: #f9f9f9;\n}\n\n.light-10 {\n  color: white;\n}\n\n.light-20 {\n  color: white;\n}\n\n.light-30 {\n  color: white;\n}\n\n.bg-grey {\n  background: #e5e5e5;\n}\n\n.bg-grey-10 {\n  background: white;\n}\n\n.bg-grey-20 {\n  background: white;\n}\n\n.bg-grey-30 {\n  background: white;\n}\n\n.fill-grey {\n  fill: #e5e5e5;\n}\n\n.fill-grey-10 {\n  fill: white;\n}\n\n.fill-grey-20 {\n  fill: white;\n}\n\n.fill-grey-30 {\n  fill: white;\n}\n\n.bdr-grey {\n  border: 1px solid #e5e5e5;\n}\n\n.bdr-grey-10 {\n  border: 1px solid white;\n}\n\n.bdr-grey-20 {\n  border: 1px solid white;\n}\n\n.bdr-grey-30 {\n  border: 1px solid white;\n}\n\n.grey {\n  color: #e5e5e5;\n}\n\n.grey-10 {\n  color: white;\n}\n\n.grey-20 {\n  color: white;\n}\n\n.grey-30 {\n  color: white;\n}\n\n.bg-dark {\n  background: #666;\n}\n\n.bg-dark-10 {\n  background: gray;\n}\n\n.bg-dark-20 {\n  background: #999999;\n}\n\n.bg-dark-30 {\n  background: #b3b3b3;\n}\n\n.fill-dark {\n  fill: #666;\n}\n\n.fill-dark-10 {\n  fill: gray;\n}\n\n.fill-dark-20 {\n  fill: #999999;\n}\n\n.fill-dark-30 {\n  fill: #b3b3b3;\n}\n\n.bdr-dark {\n  border: 1px solid #666;\n}\n\n.bdr-dark-10 {\n  border: 1px solid gray;\n}\n\n.bdr-dark-20 {\n  border: 1px solid #999999;\n}\n\n.bdr-dark-30 {\n  border: 1px solid #b3b3b3;\n}\n\n.dark {\n  color: #666;\n}\n\n.dark-10 {\n  color: gray;\n}\n\n.dark-20 {\n  color: #999999;\n}\n\n.dark-30 {\n  color: #b3b3b3;\n}\n\n.bg-almost-black {\n  background: #333;\n}\n\n.bg-almost-black-10 {\n  background: #4d4d4d;\n}\n\n.bg-almost-black-20 {\n  background: #666666;\n}\n\n.bg-almost-black-30 {\n  background: gray;\n}\n\n.fill-almost-black {\n  fill: #333;\n}\n\n.fill-almost-black-10 {\n  fill: #4d4d4d;\n}\n\n.fill-almost-black-20 {\n  fill: #666666;\n}\n\n.fill-almost-black-30 {\n  fill: gray;\n}\n\n.bdr-almost-black {\n  border: 1px solid #333;\n}\n\n.bdr-almost-black-10 {\n  border: 1px solid #4d4d4d;\n}\n\n.bdr-almost-black-20 {\n  border: 1px solid #666666;\n}\n\n.bdr-almost-black-30 {\n  border: 1px solid gray;\n}\n\n.almost-black {\n  color: #333;\n}\n\n.almost-black-10 {\n  color: #4d4d4d;\n}\n\n.almost-black-20 {\n  color: #666666;\n}\n\n.almost-black-30 {\n  color: gray;\n}\n\n.bg-black {\n  background: #000;\n}\n\n.bg-black-10 {\n  background: #1a1a1a;\n}\n\n.bg-black-20 {\n  background: #333333;\n}\n\n.bg-black-30 {\n  background: #4d4d4d;\n}\n\n.fill-black {\n  fill: #000;\n}\n\n.fill-black-10 {\n  fill: #1a1a1a;\n}\n\n.fill-black-20 {\n  fill: #333333;\n}\n\n.fill-black-30 {\n  fill: #4d4d4d;\n}\n\n.bdr-black {\n  border: 1px solid #000;\n}\n\n.bdr-black-10 {\n  border: 1px solid #1a1a1a;\n}\n\n.bdr-black-20 {\n  border: 1px solid #333333;\n}\n\n.bdr-black-30 {\n  border: 1px solid #4d4d4d;\n}\n\n.black {\n  color: #000;\n}\n\n.black-10 {\n  color: #1a1a1a;\n}\n\n.black-20 {\n  color: #333333;\n}\n\n.black-30 {\n  color: #4d4d4d;\n}\n\n.bg-brand {\n  background: #0074D9;\n}\n\n.bg-brand-10 {\n  background: #0d8eff;\n}\n\n.bg-brand-20 {\n  background: #40a6ff;\n}\n\n.bg-brand-30 {\n  background: #73beff;\n}\n\n.fill-brand {\n  fill: #0074D9;\n}\n\n.fill-brand-10 {\n  fill: #0d8eff;\n}\n\n.fill-brand-20 {\n  fill: #40a6ff;\n}\n\n.fill-brand-30 {\n  fill: #73beff;\n}\n\n.bdr-brand {\n  border: 1px solid #0074D9;\n}\n\n.bdr-brand-10 {\n  border: 1px solid #0d8eff;\n}\n\n.bdr-brand-20 {\n  border: 1px solid #40a6ff;\n}\n\n.bdr-brand-30 {\n  border: 1px solid #73beff;\n}\n\n.brand {\n  color: #0074D9;\n}\n\n.brand-10 {\n  color: #0d8eff;\n}\n\n.brand-20 {\n  color: #40a6ff;\n}\n\n.brand-30 {\n  color: #73beff;\n}\n\n.bg-primary {\n  background: #0074D9;\n}\n\n.bg-primary-10 {\n  background: #0d8eff;\n}\n\n.bg-primary-20 {\n  background: #40a6ff;\n}\n\n.bg-primary-30 {\n  background: #73beff;\n}\n\n.fill-primary {\n  fill: #0074D9;\n}\n\n.fill-primary-10 {\n  fill: #0d8eff;\n}\n\n.fill-primary-20 {\n  fill: #40a6ff;\n}\n\n.fill-primary-30 {\n  fill: #73beff;\n}\n\n.bdr-primary {\n  border: 1px solid #0074D9;\n}\n\n.bdr-primary-10 {\n  border: 1px solid #0d8eff;\n}\n\n.bdr-primary-20 {\n  border: 1px solid #40a6ff;\n}\n\n.bdr-primary-30 {\n  border: 1px solid #73beff;\n}\n\n.primary {\n  color: #0074D9;\n}\n\n.primary-10 {\n  color: #0d8eff;\n}\n\n.primary-20 {\n  color: #40a6ff;\n}\n\n.primary-30 {\n  color: #73beff;\n}\n\n.bg-secondary {\n  background: #f9f9f9;\n}\n\n.bg-secondary-10 {\n  background: white;\n}\n\n.bg-secondary-20 {\n  background: white;\n}\n\n.bg-secondary-30 {\n  background: white;\n}\n\n.fill-secondary {\n  fill: #f9f9f9;\n}\n\n.fill-secondary-10 {\n  fill: white;\n}\n\n.fill-secondary-20 {\n  fill: white;\n}\n\n.fill-secondary-30 {\n  fill: white;\n}\n\n.bdr-secondary {\n  border: 1px solid #f9f9f9;\n}\n\n.bdr-secondary-10 {\n  border: 1px solid white;\n}\n\n.bdr-secondary-20 {\n  border: 1px solid white;\n}\n\n.bdr-secondary-30 {\n  border: 1px solid white;\n}\n\n.secondary {\n  color: #f9f9f9;\n}\n\n.secondary-10 {\n  color: white;\n}\n\n.secondary-20 {\n  color: white;\n}\n\n.secondary-30 {\n  color: white;\n}\n\n.bg-success {\n  background: #2ECC40;\n}\n\n.bg-success-10 {\n  background: #54d964;\n}\n\n.bg-success-20 {\n  background: #7ee289;\n}\n\n.bg-success-30 {\n  background: #a8ebaf;\n}\n\n.fill-success {\n  fill: #2ECC40;\n}\n\n.fill-success-10 {\n  fill: #54d964;\n}\n\n.fill-success-20 {\n  fill: #7ee289;\n}\n\n.fill-success-30 {\n  fill: #a8ebaf;\n}\n\n.bdr-success {\n  border: 1px solid #2ECC40;\n}\n\n.bdr-success-10 {\n  border: 1px solid #54d964;\n}\n\n.bdr-success-20 {\n  border: 1px solid #7ee289;\n}\n\n.bdr-success-30 {\n  border: 1px solid #a8ebaf;\n}\n\n.success {\n  color: #2ECC40;\n}\n\n.success-10 {\n  color: #54d964;\n}\n\n.success-20 {\n  color: #7ee289;\n}\n\n.success-30 {\n  color: #a8ebaf;\n}\n\n.bg-info {\n  background: #39CCCC;\n}\n\n.bg-info-10 {\n  background: #62d6d6;\n}\n\n.bg-info-20 {\n  background: #8ae1e1;\n}\n\n.bg-info-30 {\n  background: #b3ebeb;\n}\n\n.fill-info {\n  fill: #39CCCC;\n}\n\n.fill-info-10 {\n  fill: #62d6d6;\n}\n\n.fill-info-20 {\n  fill: #8ae1e1;\n}\n\n.fill-info-30 {\n  fill: #b3ebeb;\n}\n\n.bdr-info {\n  border: 1px solid #39CCCC;\n}\n\n.bdr-info-10 {\n  border: 1px solid #62d6d6;\n}\n\n.bdr-info-20 {\n  border: 1px solid #8ae1e1;\n}\n\n.bdr-info-30 {\n  border: 1px solid #b3ebeb;\n}\n\n.info {\n  color: #39CCCC;\n}\n\n.info-10 {\n  color: #62d6d6;\n}\n\n.info-20 {\n  color: #8ae1e1;\n}\n\n.info-30 {\n  color: #b3ebeb;\n}\n\n.bg-warning {\n  background: #FFDC00;\n}\n\n.bg-warning-10 {\n  background: #ffe333;\n}\n\n.bg-warning-20 {\n  background: #ffea66;\n}\n\n.bg-warning-30 {\n  background: #fff199;\n}\n\n.fill-warning {\n  fill: #FFDC00;\n}\n\n.fill-warning-10 {\n  fill: #ffe333;\n}\n\n.fill-warning-20 {\n  fill: #ffea66;\n}\n\n.fill-warning-30 {\n  fill: #fff199;\n}\n\n.bdr-warning {\n  border: 1px solid #FFDC00;\n}\n\n.bdr-warning-10 {\n  border: 1px solid #ffe333;\n}\n\n.bdr-warning-20 {\n  border: 1px solid #ffea66;\n}\n\n.bdr-warning-30 {\n  border: 1px solid #fff199;\n}\n\n.warning {\n  color: #FFDC00;\n}\n\n.warning-10 {\n  color: #ffe333;\n}\n\n.warning-20 {\n  color: #ffea66;\n}\n\n.warning-30 {\n  color: #fff199;\n}\n\n.bg-error {\n  background: #FF4136;\n}\n\n.bg-error-10 {\n  background: #ff7169;\n}\n\n.bg-error-20 {\n  background: #ffa19c;\n}\n\n.bg-error-30 {\n  background: #ffd2cf;\n}\n\n.fill-error {\n  fill: #FF4136;\n}\n\n.fill-error-10 {\n  fill: #ff7169;\n}\n\n.fill-error-20 {\n  fill: #ffa19c;\n}\n\n.fill-error-30 {\n  fill: #ffd2cf;\n}\n\n.bdr-error {\n  border: 1px solid #FF4136;\n}\n\n.bdr-error-10 {\n  border: 1px solid #ff7169;\n}\n\n.bdr-error-20 {\n  border: 1px solid #ffa19c;\n}\n\n.bdr-error-30 {\n  border: 1px solid #ffd2cf;\n}\n\n.error {\n  color: #FF4136;\n}\n\n.error-10 {\n  color: #ff7169;\n}\n\n.error-20 {\n  color: #ffa19c;\n}\n\n.error-30 {\n  color: #ffd2cf;\n}\n\nbody {\n  background: white;\n  padding: 0;\n  margin: 0;\n  padding: 20px;\n}\n\n.Header {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  background: #f5f5f5;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n}\n\n.logo {\n  width: 80px;\n  margin-right: 40px;\n}\n.logo__img {\n  width: 100%;\n}\n\n.row {\n  display: flex;\n  padding: 10px;\n  border: 1px solid #ccc;\n}\n.row > div {\n  padding: 20px;\n  margin-right: 10px;\n}", "",{"version":3,"sources":["/Users/andreortiz/Desktop/helloandre/styles/tools/_color-gen.scss","/Users/andreortiz/Desktop/helloandre/styles/settings/_colors.scss","/Users/andreortiz/Desktop/helloandre/styles/styles.scss","/Users/andreortiz/Desktop/helloandre/styles/elements/_body.scss"],"names":[],"mappings":"AAGI;EAAgB,mBCkCX;ACnCT;;AFEI;EAAmB,mBAAA;AEEvB;;AFDI;EAAmB,mBAAA;AEKvB;;AFJI;EAAmB,mBAAA;AEQvB;;AFLI;EAAkB,aC4Bb;ACnBT;;AFRI;EAAqB,aAAA;AEYzB;;AFXI;EAAqB,aAAA;AEezB;;AFdI;EAAqB,aAAA;AEkBzB;;AFfI;EAAiB,yBAAA;AEmBrB;;AFlBI;EAAoB,yBAAA;AEsBxB;;AFrBI;EAAoB,yBAAA;AEyBxB;;AFxBI;EAAoB,yBAAA;AE4BxB;;AFzBI;EAAa,cCgBR;ACaT;;AF5BI;EAAgB,cAAA;AEgCpB;;AF/BI;EAAgB,cAAA;AEmCpB;;AFlCI;EAAgB,cAAA;AEsCpB;;AF3DI;EAAgB,mBCkCX;AC6BT;;AF9DI;EAAmB,mBAAA;AEkEvB;;AFjEI;EAAmB,mBAAA;AEqEvB;;AFpEI;EAAmB,mBAAA;AEwEvB;;AFrEI;EAAkB,aC4Bb;AC6CT;;AFxEI;EAAqB,aAAA;AE4EzB;;AF3EI;EAAqB,aAAA;AE+EzB;;AF9EI;EAAqB,aAAA;AEkFzB;;AF/EI;EAAiB,yBAAA;AEmFrB;;AFlFI;EAAoB,yBAAA;AEsFxB;;AFrFI;EAAoB,yBAAA;AEyFxB;;AFxFI;EAAoB,yBAAA;AE4FxB;;AFzFI;EAAa,cCgBR;AC6ET;;AF5FI;EAAgB,cAAA;AEgGpB;;AF/FI;EAAgB,cAAA;AEmGpB;;AFlGI;EAAgB,cAAA;AEsGpB;;AF3HI;EAAgB,mBCkCX;AC6FT;;AF9HI;EAAmB,mBAAA;AEkIvB;;AFjII;EAAmB,mBAAA;AEqIvB;;AFpII;EAAmB,mBAAA;AEwIvB;;AFrII;EAAkB,aC4Bb;AC6GT;;AFxII;EAAqB,aAAA;AE4IzB;;AF3II;EAAqB,aAAA;AE+IzB;;AF9II;EAAqB,aAAA;AEkJzB;;AF/II;EAAiB,yBAAA;AEmJrB;;AFlJI;EAAoB,yBAAA;AEsJxB;;AFrJI;EAAoB,yBAAA;AEyJxB;;AFxJI;EAAoB,yBAAA;AE4JxB;;AFzJI;EAAa,cCgBR;AC6IT;;AF5JI;EAAgB,cAAA;AEgKpB;;AF/JI;EAAgB,cAAA;AEmKpB;;AFlKI;EAAgB,cAAA;AEsKpB;;AF3LI;EAAgB,mBCkCX;AC6JT;;AF9LI;EAAmB,mBAAA;AEkMvB;;AFjMI;EAAmB,mBAAA;AEqMvB;;AFpMI;EAAmB,mBAAA;AEwMvB;;AFrMI;EAAkB,aC4Bb;AC6KT;;AFxMI;EAAqB,aAAA;AE4MzB;;AF3MI;EAAqB,aAAA;AE+MzB;;AF9MI;EAAqB,aAAA;AEkNzB;;AF/MI;EAAiB,yBAAA;AEmNrB;;AFlNI;EAAoB,yBAAA;AEsNxB;;AFrNI;EAAoB,yBAAA;AEyNxB;;AFxNI;EAAoB,yBAAA;AE4NxB;;AFzNI;EAAa,cCgBR;AC6MT;;AF5NI;EAAgB,cAAA;AEgOpB;;AF/NI;EAAgB,cAAA;AEmOpB;;AFlOI;EAAgB,cAAA;AEsOpB;;AF3PI;EAAgB,mBCkCX;AC6NT;;AF9PI;EAAmB,mBAAA;AEkQvB;;AFjQI;EAAmB,mBAAA;AEqQvB;;AFpQI;EAAmB,mBAAA;AEwQvB;;AFrQI;EAAkB,aC4Bb;AC6OT;;AFxQI;EAAqB,aAAA;AE4QzB;;AF3QI;EAAqB,aAAA;AE+QzB;;AF9QI;EAAqB,aAAA;AEkRzB;;AF/QI;EAAiB,yBAAA;AEmRrB;;AFlRI;EAAoB,yBAAA;AEsRxB;;AFrRI;EAAoB,yBAAA;AEyRxB;;AFxRI;EAAoB,yBAAA;AE4RxB;;AFzRI;EAAa,cCgBR;AC6QT;;AF5RI;EAAgB,cAAA;AEgSpB;;AF/RI;EAAgB,cAAA;AEmSpB;;AFlSI;EAAgB,cAAA;AEsSpB;;AF3TI;EAAgB,mBCkCX;AC6RT;;AF9TI;EAAmB,mBAAA;AEkUvB;;AFjUI;EAAmB,mBAAA;AEqUvB;;AFpUI;EAAmB,mBAAA;AEwUvB;;AFrUI;EAAkB,aC4Bb;AC6ST;;AFxUI;EAAqB,aAAA;AE4UzB;;AF3UI;EAAqB,aAAA;AE+UzB;;AF9UI;EAAqB,aAAA;AEkVzB;;AF/UI;EAAiB,yBAAA;AEmVrB;;AFlVI;EAAoB,yBAAA;AEsVxB;;AFrVI;EAAoB,yBAAA;AEyVxB;;AFxVI;EAAoB,yBAAA;AE4VxB;;AFzVI;EAAa,cCgBR;AC6UT;;AF5VI;EAAgB,cAAA;AEgWpB;;AF/VI;EAAgB,cAAA;AEmWpB;;AFlWI;EAAgB,cAAA;AEsWpB;;AF3XI;EAAgB,mBCkCX;AC6VT;;AF9XI;EAAmB,mBAAA;AEkYvB;;AFjYI;EAAmB,mBAAA;AEqYvB;;AFpYI;EAAmB,mBAAA;AEwYvB;;AFrYI;EAAkB,aC4Bb;AC6WT;;AFxYI;EAAqB,aAAA;AE4YzB;;AF3YI;EAAqB,aAAA;AE+YzB;;AF9YI;EAAqB,aAAA;AEkZzB;;AF/YI;EAAiB,yBAAA;AEmZrB;;AFlZI;EAAoB,yBAAA;AEsZxB;;AFrZI;EAAoB,yBAAA;AEyZxB;;AFxZI;EAAoB,yBAAA;AE4ZxB;;AFzZI;EAAa,cCgBR;AC6YT;;AF5ZI;EAAgB,cAAA;AEgapB;;AF/ZI;EAAgB,cAAA;AEmapB;;AFlaI;EAAgB,cAAA;AEsapB;;AF3bI;EAAgB,mBCkCX;AC6ZT;;AF9bI;EAAmB,mBAAA;AEkcvB;;AFjcI;EAAmB,mBAAA;AEqcvB;;AFpcI;EAAmB,mBAAA;AEwcvB;;AFrcI;EAAkB,aC4Bb;AC6aT;;AFxcI;EAAqB,aAAA;AE4czB;;AF3cI;EAAqB,aAAA;AE+czB;;AF9cI;EAAqB,aAAA;AEkdzB;;AF/cI;EAAiB,yBAAA;AEmdrB;;AFldI;EAAoB,yBAAA;AEsdxB;;AFrdI;EAAoB,yBAAA;AEydxB;;AFxdI;EAAoB,yBAAA;AE4dxB;;AFzdI;EAAa,cCgBR;AC6cT;;AF5dI;EAAgB,cAAA;AEgepB;;AF/dI;EAAgB,cAAA;AEmepB;;AFleI;EAAgB,cAAA;AEsepB;;AF3fI;EAAgB,mBCkCX;AC6dT;;AF9fI;EAAmB,mBAAA;AEkgBvB;;AFjgBI;EAAmB,mBAAA;AEqgBvB;;AFpgBI;EAAmB,iBAAA;AEwgBvB;;AFrgBI;EAAkB,aC4Bb;AC6eT;;AFxgBI;EAAqB,aAAA;AE4gBzB;;AF3gBI;EAAqB,aAAA;AE+gBzB;;AF9gBI;EAAqB,WAAA;AEkhBzB;;AF/gBI;EAAiB,yBAAA;AEmhBrB;;AFlhBI;EAAoB,yBAAA;AEshBxB;;AFrhBI;EAAoB,yBAAA;AEyhBxB;;AFxhBI;EAAoB,uBAAA;AE4hBxB;;AFzhBI;EAAa,cCgBR;AC6gBT;;AF5hBI;EAAgB,cAAA;AEgiBpB;;AF/hBI;EAAgB,cAAA;AEmiBpB;;AFliBI;EAAgB,YAAA;AEsiBpB;;AF3jBI;EAAgB,mBCkCX;AC6hBT;;AF9jBI;EAAmB,mBAAA;AEkkBvB;;AFjkBI;EAAmB,mBAAA;AEqkBvB;;AFpkBI;EAAmB,mBAAA;AEwkBvB;;AFrkBI;EAAkB,aC4Bb;AC6iBT;;AFxkBI;EAAqB,aAAA;AE4kBzB;;AF3kBI;EAAqB,aAAA;AE+kBzB;;AF9kBI;EAAqB,aAAA;AEklBzB;;AF/kBI;EAAiB,yBAAA;AEmlBrB;;AFllBI;EAAoB,yBAAA;AEslBxB;;AFrlBI;EAAoB,yBAAA;AEylBxB;;AFxlBI;EAAoB,yBAAA;AE4lBxB;;AFzlBI;EAAa,cCgBR;AC6kBT;;AF5lBI;EAAgB,cAAA;AEgmBpB;;AF/lBI;EAAgB,cAAA;AEmmBpB;;AFlmBI;EAAgB,cAAA;AEsmBpB;;AF3nBI;EAAgB,mBCkCX;AC6lBT;;AF9nBI;EAAmB,mBAAA;AEkoBvB;;AFjoBI;EAAmB,mBAAA;AEqoBvB;;AFpoBI;EAAmB,mBAAA;AEwoBvB;;AFroBI;EAAkB,aC4Bb;AC6mBT;;AFxoBI;EAAqB,aAAA;AE4oBzB;;AF3oBI;EAAqB,aAAA;AE+oBzB;;AF9oBI;EAAqB,aAAA;AEkpBzB;;AF/oBI;EAAiB,yBAAA;AEmpBrB;;AFlpBI;EAAoB,yBAAA;AEspBxB;;AFrpBI;EAAoB,yBAAA;AEypBxB;;AFxpBI;EAAoB,yBAAA;AE4pBxB;;AFzpBI;EAAa,cCgBR;AC6oBT;;AF5pBI;EAAgB,cAAA;AEgqBpB;;AF/pBI;EAAgB,cAAA;AEmqBpB;;AFlqBI;EAAgB,cAAA;AEsqBpB;;AF3rBI;EAAgB,mBCkCX;AC6pBT;;AF9rBI;EAAmB,mBAAA;AEksBvB;;AFjsBI;EAAmB,mBAAA;AEqsBvB;;AFpsBI;EAAmB,mBAAA;AEwsBvB;;AFrsBI;EAAkB,aC4Bb;AC6qBT;;AFxsBI;EAAqB,aAAA;AE4sBzB;;AF3sBI;EAAqB,aAAA;AE+sBzB;;AF9sBI;EAAqB,aAAA;AEktBzB;;AF/sBI;EAAiB,yBAAA;AEmtBrB;;AFltBI;EAAoB,yBAAA;AEstBxB;;AFrtBI;EAAoB,yBAAA;AEytBxB;;AFxtBI;EAAoB,yBAAA;AE4tBxB;;AFztBI;EAAa,cCgBR;AC6sBT;;AF5tBI;EAAgB,cAAA;AEguBpB;;AF/tBI;EAAgB,cAAA;AEmuBpB;;AFluBI;EAAgB,cAAA;AEsuBpB;;AF3vBI;EAAgB,mBCkCX;AC6tBT;;AF9vBI;EAAmB,mBAAA;AEkwBvB;;AFjwBI;EAAmB,mBAAA;AEqwBvB;;AFpwBI;EAAmB,mBAAA;AEwwBvB;;AFrwBI;EAAkB,aC4Bb;AC6uBT;;AFxwBI;EAAqB,aAAA;AE4wBzB;;AF3wBI;EAAqB,aAAA;AE+wBzB;;AF9wBI;EAAqB,aAAA;AEkxBzB;;AF/wBI;EAAiB,yBAAA;AEmxBrB;;AFlxBI;EAAoB,yBAAA;AEsxBxB;;AFrxBI;EAAoB,yBAAA;AEyxBxB;;AFxxBI;EAAoB,yBAAA;AE4xBxB;;AFzxBI;EAAa,cCgBR;AC6wBT;;AF5xBI;EAAgB,cAAA;AEgyBpB;;AF/xBI;EAAgB,cAAA;AEmyBpB;;AFlyBI;EAAgB,cAAA;AEsyBpB;;AF3zBI;EAAgB,gBCkCX;AC6xBT;;AF9zBI;EAAmB,iBAAA;AEk0BvB;;AFj0BI;EAAmB,iBAAA;AEq0BvB;;AFp0BI;EAAmB,iBAAA;AEw0BvB;;AFr0BI;EAAkB,UC4Bb;AC6yBT;;AFx0BI;EAAqB,WAAA;AE40BzB;;AF30BI;EAAqB,WAAA;AE+0BzB;;AF90BI;EAAqB,WAAA;AEk1BzB;;AF/0BI;EAAiB,sBAAA;AEm1BrB;;AFl1BI;EAAoB,uBAAA;AEs1BxB;;AFr1BI;EAAoB,uBAAA;AEy1BxB;;AFx1BI;EAAoB,uBAAA;AE41BxB;;AFz1BI;EAAa,WCgBR;AC60BT;;AF51BI;EAAgB,YAAA;AEg2BpB;;AF/1BI;EAAgB,YAAA;AEm2BpB;;AFl2BI;EAAgB,YAAA;AEs2BpB;;AF33BI;EAAgB,mBCkCX;AC61BT;;AF93BI;EAAmB,iBAAA;AEk4BvB;;AFj4BI;EAAmB,iBAAA;AEq4BvB;;AFp4BI;EAAmB,iBAAA;AEw4BvB;;AFr4BI;EAAkB,aC4Bb;AC62BT;;AFx4BI;EAAqB,WAAA;AE44BzB;;AF34BI;EAAqB,WAAA;AE+4BzB;;AF94BI;EAAqB,WAAA;AEk5BzB;;AF/4BI;EAAiB,yBAAA;AEm5BrB;;AFl5BI;EAAoB,uBAAA;AEs5BxB;;AFr5BI;EAAoB,uBAAA;AEy5BxB;;AFx5BI;EAAoB,uBAAA;AE45BxB;;AFz5BI;EAAa,cCgBR;AC64BT;;AF55BI;EAAgB,YAAA;AEg6BpB;;AF/5BI;EAAgB,YAAA;AEm6BpB;;AFl6BI;EAAgB,YAAA;AEs6BpB;;AF37BI;EAAgB,mBCkCX;AC65BT;;AF97BI;EAAmB,iBAAA;AEk8BvB;;AFj8BI;EAAmB,iBAAA;AEq8BvB;;AFp8BI;EAAmB,iBAAA;AEw8BvB;;AFr8BI;EAAkB,aC4Bb;AC66BT;;AFx8BI;EAAqB,WAAA;AE48BzB;;AF38BI;EAAqB,WAAA;AE+8BzB;;AF98BI;EAAqB,WAAA;AEk9BzB;;AF/8BI;EAAiB,yBAAA;AEm9BrB;;AFl9BI;EAAoB,uBAAA;AEs9BxB;;AFr9BI;EAAoB,uBAAA;AEy9BxB;;AFx9BI;EAAoB,uBAAA;AE49BxB;;AFz9BI;EAAa,cCgBR;AC68BT;;AF59BI;EAAgB,YAAA;AEg+BpB;;AF/9BI;EAAgB,YAAA;AEm+BpB;;AFl+BI;EAAgB,YAAA;AEs+BpB;;AF3/BI;EAAgB,gBCkCX;AC69BT;;AF9/BI;EAAmB,gBAAA;AEkgCvB;;AFjgCI;EAAmB,mBAAA;AEqgCvB;;AFpgCI;EAAmB,mBAAA;AEwgCvB;;AFrgCI;EAAkB,UC4Bb;AC6+BT;;AFxgCI;EAAqB,UAAA;AE4gCzB;;AF3gCI;EAAqB,aAAA;AE+gCzB;;AF9gCI;EAAqB,aAAA;AEkhCzB;;AF/gCI;EAAiB,sBAAA;AEmhCrB;;AFlhCI;EAAoB,sBAAA;AEshCxB;;AFrhCI;EAAoB,yBAAA;AEyhCxB;;AFxhCI;EAAoB,yBAAA;AE4hCxB;;AFzhCI;EAAa,WCgBR;AC6gCT;;AF5hCI;EAAgB,WAAA;AEgiCpB;;AF/hCI;EAAgB,cAAA;AEmiCpB;;AFliCI;EAAgB,cAAA;AEsiCpB;;AF3jCI;EAAgB,gBCkCX;AC6hCT;;AF9jCI;EAAmB,mBAAA;AEkkCvB;;AFjkCI;EAAmB,mBAAA;AEqkCvB;;AFpkCI;EAAmB,gBAAA;AEwkCvB;;AFrkCI;EAAkB,UC4Bb;AC6iCT;;AFxkCI;EAAqB,aAAA;AE4kCzB;;AF3kCI;EAAqB,aAAA;AE+kCzB;;AF9kCI;EAAqB,UAAA;AEklCzB;;AF/kCI;EAAiB,sBAAA;AEmlCrB;;AFllCI;EAAoB,yBAAA;AEslCxB;;AFrlCI;EAAoB,yBAAA;AEylCxB;;AFxlCI;EAAoB,sBAAA;AE4lCxB;;AFzlCI;EAAa,WCgBR;AC6kCT;;AF5lCI;EAAgB,cAAA;AEgmCpB;;AF/lCI;EAAgB,cAAA;AEmmCpB;;AFlmCI;EAAgB,WAAA;AEsmCpB;;AF3nCI;EAAgB,gBCkCX;AC6lCT;;AF9nCI;EAAmB,mBAAA;AEkoCvB;;AFjoCI;EAAmB,mBAAA;AEqoCvB;;AFpoCI;EAAmB,mBAAA;AEwoCvB;;AFroCI;EAAkB,UC4Bb;AC6mCT;;AFxoCI;EAAqB,aAAA;AE4oCzB;;AF3oCI;EAAqB,aAAA;AE+oCzB;;AF9oCI;EAAqB,aAAA;AEkpCzB;;AF/oCI;EAAiB,sBAAA;AEmpCrB;;AFlpCI;EAAoB,yBAAA;AEspCxB;;AFrpCI;EAAoB,yBAAA;AEypCxB;;AFxpCI;EAAoB,yBAAA;AE4pCxB;;AFzpCI;EAAa,WCgBR;AC6oCT;;AF5pCI;EAAgB,cAAA;AEgqCpB;;AF/pCI;EAAgB,cAAA;AEmqCpB;;AFlqCI;EAAgB,cAAA;AEsqCpB;;AF3rCI;EAAgB,mBCkCX;AC6pCT;;AF9rCI;EAAmB,mBAAA;AEksCvB;;AFjsCI;EAAmB,mBAAA;AEqsCvB;;AFpsCI;EAAmB,mBAAA;AEwsCvB;;AFrsCI;EAAkB,aC4Bb;AC6qCT;;AFxsCI;EAAqB,aAAA;AE4sCzB;;AF3sCI;EAAqB,aAAA;AE+sCzB;;AF9sCI;EAAqB,aAAA;AEktCzB;;AF/sCI;EAAiB,yBAAA;AEmtCrB;;AFltCI;EAAoB,yBAAA;AEstCxB;;AFrtCI;EAAoB,yBAAA;AEytCxB;;AFxtCI;EAAoB,yBAAA;AE4tCxB;;AFztCI;EAAa,cCgBR;AC6sCT;;AF5tCI;EAAgB,cAAA;AEguCpB;;AF/tCI;EAAgB,cAAA;AEmuCpB;;AFluCI;EAAgB,cAAA;AEsuCpB;;AF3vCI;EAAgB,mBCkCX;AC6tCT;;AF9vCI;EAAmB,mBAAA;AEkwCvB;;AFjwCI;EAAmB,mBAAA;AEqwCvB;;AFpwCI;EAAmB,mBAAA;AEwwCvB;;AFrwCI;EAAkB,aC4Bb;AC6uCT;;AFxwCI;EAAqB,aAAA;AE4wCzB;;AF3wCI;EAAqB,aAAA;AE+wCzB;;AF9wCI;EAAqB,aAAA;AEkxCzB;;AF/wCI;EAAiB,yBAAA;AEmxCrB;;AFlxCI;EAAoB,yBAAA;AEsxCxB;;AFrxCI;EAAoB,yBAAA;AEyxCxB;;AFxxCI;EAAoB,yBAAA;AE4xCxB;;AFzxCI;EAAa,cCgBR;AC6wCT;;AF5xCI;EAAgB,cAAA;AEgyCpB;;AF/xCI;EAAgB,cAAA;AEmyCpB;;AFlyCI;EAAgB,cAAA;AEsyCpB;;AF3zCI;EAAgB,mBCkCX;AC6xCT;;AF9zCI;EAAmB,iBAAA;AEk0CvB;;AFj0CI;EAAmB,iBAAA;AEq0CvB;;AFp0CI;EAAmB,iBAAA;AEw0CvB;;AFr0CI;EAAkB,aC4Bb;AC6yCT;;AFx0CI;EAAqB,WAAA;AE40CzB;;AF30CI;EAAqB,WAAA;AE+0CzB;;AF90CI;EAAqB,WAAA;AEk1CzB;;AF/0CI;EAAiB,yBAAA;AEm1CrB;;AFl1CI;EAAoB,uBAAA;AEs1CxB;;AFr1CI;EAAoB,uBAAA;AEy1CxB;;AFx1CI;EAAoB,uBAAA;AE41CxB;;AFz1CI;EAAa,cCgBR;AC60CT;;AF51CI;EAAgB,YAAA;AEg2CpB;;AF/1CI;EAAgB,YAAA;AEm2CpB;;AFl2CI;EAAgB,YAAA;AEs2CpB;;AF33CI;EAAgB,mBCkCX;AC61CT;;AF93CI;EAAmB,mBAAA;AEk4CvB;;AFj4CI;EAAmB,mBAAA;AEq4CvB;;AFp4CI;EAAmB,mBAAA;AEw4CvB;;AFr4CI;EAAkB,aC4Bb;AC62CT;;AFx4CI;EAAqB,aAAA;AE44CzB;;AF34CI;EAAqB,aAAA;AE+4CzB;;AF94CI;EAAqB,aAAA;AEk5CzB;;AF/4CI;EAAiB,yBAAA;AEm5CrB;;AFl5CI;EAAoB,yBAAA;AEs5CxB;;AFr5CI;EAAoB,yBAAA;AEy5CxB;;AFx5CI;EAAoB,yBAAA;AE45CxB;;AFz5CI;EAAa,cCgBR;AC64CT;;AF55CI;EAAgB,cAAA;AEg6CpB;;AF/5CI;EAAgB,cAAA;AEm6CpB;;AFl6CI;EAAgB,cAAA;AEs6CpB;;AF37CI;EAAgB,mBCkCX;AC65CT;;AF97CI;EAAmB,mBAAA;AEk8CvB;;AFj8CI;EAAmB,mBAAA;AEq8CvB;;AFp8CI;EAAmB,mBAAA;AEw8CvB;;AFr8CI;EAAkB,aC4Bb;AC66CT;;AFx8CI;EAAqB,aAAA;AE48CzB;;AF38CI;EAAqB,aAAA;AE+8CzB;;AF98CI;EAAqB,aAAA;AEk9CzB;;AF/8CI;EAAiB,yBAAA;AEm9CrB;;AFl9CI;EAAoB,yBAAA;AEs9CxB;;AFr9CI;EAAoB,yBAAA;AEy9CxB;;AFx9CI;EAAoB,yBAAA;AE49CxB;;AFz9CI;EAAa,cCgBR;AC68CT;;AF59CI;EAAgB,cAAA;AEg+CpB;;AF/9CI;EAAgB,cAAA;AEm+CpB;;AFl+CI;EAAgB,cAAA;AEs+CpB;;AF3/CI;EAAgB,mBCkCX;AC69CT;;AF9/CI;EAAmB,mBAAA;AEkgDvB;;AFjgDI;EAAmB,mBAAA;AEqgDvB;;AFpgDI;EAAmB,mBAAA;AEwgDvB;;AFrgDI;EAAkB,aC4Bb;AC6+CT;;AFxgDI;EAAqB,aAAA;AE4gDzB;;AF3gDI;EAAqB,aAAA;AE+gDzB;;AF9gDI;EAAqB,aAAA;AEkhDzB;;AF/gDI;EAAiB,yBAAA;AEmhDrB;;AFlhDI;EAAoB,yBAAA;AEshDxB;;AFrhDI;EAAoB,yBAAA;AEyhDxB;;AFxhDI;EAAoB,yBAAA;AE4hDxB;;AFzhDI;EAAa,cCgBR;AC6gDT;;AF5hDI;EAAgB,cAAA;AEgiDpB;;AF/hDI;EAAgB,cAAA;AEmiDpB;;AFliDI;EAAgB,cAAA;AEsiDpB;;AF3jDI;EAAgB,mBCkCX;AC6hDT;;AF9jDI;EAAmB,mBAAA;AEkkDvB;;AFjkDI;EAAmB,mBAAA;AEqkDvB;;AFpkDI;EAAmB,mBAAA;AEwkDvB;;AFrkDI;EAAkB,aC4Bb;AC6iDT;;AFxkDI;EAAqB,aAAA;AE4kDzB;;AF3kDI;EAAqB,aAAA;AE+kDzB;;AF9kDI;EAAqB,aAAA;AEklDzB;;AF/kDI;EAAiB,yBAAA;AEmlDrB;;AFllDI;EAAoB,yBAAA;AEslDxB;;AFrlDI;EAAoB,yBAAA;AEylDxB;;AFxlDI;EAAoB,yBAAA;AE4lDxB;;AFzlDI;EAAa,cCgBR;AC6kDT;;AF5lDI;EAAgB,cAAA;AEgmDpB;;AF/lDI;EAAgB,cAAA;AEmmDpB;;AFlmDI;EAAgB,cAAA;AEsmDpB;;AC9nDA;EACE,iBAAA;EACA,UAAA;EACA,SAAA;EACA,aAAA;ADioDF;;AC9nDA;EACE,aAAA;EACA,2BAAA;EACA,mBAAA;EACA,mBAAA;EACA,aAAA;EACA,6BAAA;ADioDF;;AC9nDA;EACE,WAAA;EACA,kBAAA;ADioDF;AChoDE;EACE,WAAA;ADkoDJ;;AC9nDA;EACE,aAAA;EACA,aAAA;EACA,sBAAA;ADioDF;AC/nDE;EACE,aAAA;EACA,kBAAA;ADioDJ","file":"styles.scss","sourcesContent":["@each $class, $color in $colors {\n  // Backgound colors\n  @if (type-of($color) == 'color'){\n    .bg-#{$class} { background: $color; }\n    .bg-#{$class}-10 { background: lighten($color, 10%); }\n    .bg-#{$class}-20 { background: lighten($color, 20%); }\n    .bg-#{$class}-30 { background: lighten($color, 30%); }\n\n    // Fill colors (for SVG)\n    .fill-#{$class} { fill: $color; }\n    .fill-#{$class}-10 { fill: lighten($color, 10%); }\n    .fill-#{$class}-20 { fill: lighten($color, 20%); }\n    .fill-#{$class}-30 { fill: lighten($color, 30%); }\n\n    // Border colors\n    .bdr-#{$class} { border: 1px solid $color; }\n    .bdr-#{$class}-10 { border: 1px solid lighten($color, 10%); }\n    .bdr-#{$class}-20 { border: 1px solid lighten($color, 20%); }\n    .bdr-#{$class}-30 { border: 1px solid lighten($color, 30%); }\n\n    // Text Colors\n    .#{$class} { color: $color; }\n    .#{$class}-10 { color: lighten($color, 10%); }\n    .#{$class}-20 { color: lighten($color, 20%); }\n    .#{$class}-30 { color: lighten($color, 30%); }\n  }\n}\n","// Colors\n$red: #FF4136;\n$orange: #FF851B;\n$yellow: #FFDC00;\n$green: #2ECC40;\n$blue: #0074D9;\n$pink: #ef336c;\n$purple: #B10DC9;\n$navy: #34495e;\n$aqua: #7FDBFF;\n$teal: #39CCCC;\n$olive: #3D9970;\n$lime: #01FF70;\n$maroon: #85144b;\n$black: #000;\n$softblue: #edf0f3;\n\n// Shades\n$almost-black: #333;\n$dark: #666;\n$grey: #e5e5e5;\n$light: #f9f9f9;\n$white: #fff;\n$trans: transparent;\n$halfwhite: rgba(white, 0.5);\n$halfblack: rgba(black, 0.5);\n\n// Semantics\n$brand: $blue;\n$primary: $blue;\n$secondary: $light;\n$success: $green;\n$info: $teal;\n$warning: $yellow;\n$error: $red;\n$interesting: $pink;\n// Color collection for creating util classes\n$colors: (\n  \"red\": $red,\n  \"orange\": $orange,\n  \"yellow\": $yellow,\n  \"green\": $green,\n  \"blue\": $blue,\n  \"pink\": $pink,\n  \"purple\": $purple,\n  \"navy\": $navy,\n  \"aqua\": $aqua,\n  \"teal\": $teal,\n  \"maroon\": $maroon,\n  \"lime\": $lime,\n  \"olive\": $olive,\n  \"white\": $white,\n  \"light\": $light,\n  \"grey\": $grey,\n  \"dark\": $dark,\n  \"almost-black\": $almost-black,\n  \"black\": $black,\n  \"brand\": $brand,\n  \"primary\": $primary,\n  \"secondary\": $secondary,\n  \"success\": $success,\n  \"info\": $info,\n  \"warning\": $warning,\n  \"error\": $error\n);\n",".bg-red {\n  background: #FF4136;\n}\n\n.bg-red-10 {\n  background: #ff7169;\n}\n\n.bg-red-20 {\n  background: #ffa19c;\n}\n\n.bg-red-30 {\n  background: #ffd2cf;\n}\n\n.fill-red {\n  fill: #FF4136;\n}\n\n.fill-red-10 {\n  fill: #ff7169;\n}\n\n.fill-red-20 {\n  fill: #ffa19c;\n}\n\n.fill-red-30 {\n  fill: #ffd2cf;\n}\n\n.bdr-red {\n  border: 1px solid #FF4136;\n}\n\n.bdr-red-10 {\n  border: 1px solid #ff7169;\n}\n\n.bdr-red-20 {\n  border: 1px solid #ffa19c;\n}\n\n.bdr-red-30 {\n  border: 1px solid #ffd2cf;\n}\n\n.red {\n  color: #FF4136;\n}\n\n.red-10 {\n  color: #ff7169;\n}\n\n.red-20 {\n  color: #ffa19c;\n}\n\n.red-30 {\n  color: #ffd2cf;\n}\n\n.bg-orange {\n  background: #FF851B;\n}\n\n.bg-orange-10 {\n  background: #ffa04e;\n}\n\n.bg-orange-20 {\n  background: #ffbc81;\n}\n\n.bg-orange-30 {\n  background: #ffd7b4;\n}\n\n.fill-orange {\n  fill: #FF851B;\n}\n\n.fill-orange-10 {\n  fill: #ffa04e;\n}\n\n.fill-orange-20 {\n  fill: #ffbc81;\n}\n\n.fill-orange-30 {\n  fill: #ffd7b4;\n}\n\n.bdr-orange {\n  border: 1px solid #FF851B;\n}\n\n.bdr-orange-10 {\n  border: 1px solid #ffa04e;\n}\n\n.bdr-orange-20 {\n  border: 1px solid #ffbc81;\n}\n\n.bdr-orange-30 {\n  border: 1px solid #ffd7b4;\n}\n\n.orange {\n  color: #FF851B;\n}\n\n.orange-10 {\n  color: #ffa04e;\n}\n\n.orange-20 {\n  color: #ffbc81;\n}\n\n.orange-30 {\n  color: #ffd7b4;\n}\n\n.bg-yellow {\n  background: #FFDC00;\n}\n\n.bg-yellow-10 {\n  background: #ffe333;\n}\n\n.bg-yellow-20 {\n  background: #ffea66;\n}\n\n.bg-yellow-30 {\n  background: #fff199;\n}\n\n.fill-yellow {\n  fill: #FFDC00;\n}\n\n.fill-yellow-10 {\n  fill: #ffe333;\n}\n\n.fill-yellow-20 {\n  fill: #ffea66;\n}\n\n.fill-yellow-30 {\n  fill: #fff199;\n}\n\n.bdr-yellow {\n  border: 1px solid #FFDC00;\n}\n\n.bdr-yellow-10 {\n  border: 1px solid #ffe333;\n}\n\n.bdr-yellow-20 {\n  border: 1px solid #ffea66;\n}\n\n.bdr-yellow-30 {\n  border: 1px solid #fff199;\n}\n\n.yellow {\n  color: #FFDC00;\n}\n\n.yellow-10 {\n  color: #ffe333;\n}\n\n.yellow-20 {\n  color: #ffea66;\n}\n\n.yellow-30 {\n  color: #fff199;\n}\n\n.bg-green {\n  background: #2ECC40;\n}\n\n.bg-green-10 {\n  background: #54d964;\n}\n\n.bg-green-20 {\n  background: #7ee289;\n}\n\n.bg-green-30 {\n  background: #a8ebaf;\n}\n\n.fill-green {\n  fill: #2ECC40;\n}\n\n.fill-green-10 {\n  fill: #54d964;\n}\n\n.fill-green-20 {\n  fill: #7ee289;\n}\n\n.fill-green-30 {\n  fill: #a8ebaf;\n}\n\n.bdr-green {\n  border: 1px solid #2ECC40;\n}\n\n.bdr-green-10 {\n  border: 1px solid #54d964;\n}\n\n.bdr-green-20 {\n  border: 1px solid #7ee289;\n}\n\n.bdr-green-30 {\n  border: 1px solid #a8ebaf;\n}\n\n.green {\n  color: #2ECC40;\n}\n\n.green-10 {\n  color: #54d964;\n}\n\n.green-20 {\n  color: #7ee289;\n}\n\n.green-30 {\n  color: #a8ebaf;\n}\n\n.bg-blue {\n  background: #0074D9;\n}\n\n.bg-blue-10 {\n  background: #0d8eff;\n}\n\n.bg-blue-20 {\n  background: #40a6ff;\n}\n\n.bg-blue-30 {\n  background: #73beff;\n}\n\n.fill-blue {\n  fill: #0074D9;\n}\n\n.fill-blue-10 {\n  fill: #0d8eff;\n}\n\n.fill-blue-20 {\n  fill: #40a6ff;\n}\n\n.fill-blue-30 {\n  fill: #73beff;\n}\n\n.bdr-blue {\n  border: 1px solid #0074D9;\n}\n\n.bdr-blue-10 {\n  border: 1px solid #0d8eff;\n}\n\n.bdr-blue-20 {\n  border: 1px solid #40a6ff;\n}\n\n.bdr-blue-30 {\n  border: 1px solid #73beff;\n}\n\n.blue {\n  color: #0074D9;\n}\n\n.blue-10 {\n  color: #0d8eff;\n}\n\n.blue-20 {\n  color: #40a6ff;\n}\n\n.blue-30 {\n  color: #73beff;\n}\n\n.bg-pink {\n  background: #ef336c;\n}\n\n.bg-pink-10 {\n  background: #f3628e;\n}\n\n.bg-pink-20 {\n  background: #f692b0;\n}\n\n.bg-pink-30 {\n  background: #fac1d2;\n}\n\n.fill-pink {\n  fill: #ef336c;\n}\n\n.fill-pink-10 {\n  fill: #f3628e;\n}\n\n.fill-pink-20 {\n  fill: #f692b0;\n}\n\n.fill-pink-30 {\n  fill: #fac1d2;\n}\n\n.bdr-pink {\n  border: 1px solid #ef336c;\n}\n\n.bdr-pink-10 {\n  border: 1px solid #f3628e;\n}\n\n.bdr-pink-20 {\n  border: 1px solid #f692b0;\n}\n\n.bdr-pink-30 {\n  border: 1px solid #fac1d2;\n}\n\n.pink {\n  color: #ef336c;\n}\n\n.pink-10 {\n  color: #f3628e;\n}\n\n.pink-20 {\n  color: #f692b0;\n}\n\n.pink-30 {\n  color: #fac1d2;\n}\n\n.bg-purple {\n  background: #B10DC9;\n}\n\n.bg-purple-10 {\n  background: #d519f0;\n}\n\n.bg-purple-20 {\n  background: #dd49f3;\n}\n\n.bg-purple-30 {\n  background: #e679f6;\n}\n\n.fill-purple {\n  fill: #B10DC9;\n}\n\n.fill-purple-10 {\n  fill: #d519f0;\n}\n\n.fill-purple-20 {\n  fill: #dd49f3;\n}\n\n.fill-purple-30 {\n  fill: #e679f6;\n}\n\n.bdr-purple {\n  border: 1px solid #B10DC9;\n}\n\n.bdr-purple-10 {\n  border: 1px solid #d519f0;\n}\n\n.bdr-purple-20 {\n  border: 1px solid #dd49f3;\n}\n\n.bdr-purple-30 {\n  border: 1px solid #e679f6;\n}\n\n.purple {\n  color: #B10DC9;\n}\n\n.purple-10 {\n  color: #d519f0;\n}\n\n.purple-20 {\n  color: #dd49f3;\n}\n\n.purple-30 {\n  color: #e679f6;\n}\n\n.bg-navy {\n  background: #34495e;\n}\n\n.bg-navy-10 {\n  background: #46637f;\n}\n\n.bg-navy-20 {\n  background: #587ca0;\n}\n\n.bg-navy-30 {\n  background: #7796b4;\n}\n\n.fill-navy {\n  fill: #34495e;\n}\n\n.fill-navy-10 {\n  fill: #46637f;\n}\n\n.fill-navy-20 {\n  fill: #587ca0;\n}\n\n.fill-navy-30 {\n  fill: #7796b4;\n}\n\n.bdr-navy {\n  border: 1px solid #34495e;\n}\n\n.bdr-navy-10 {\n  border: 1px solid #46637f;\n}\n\n.bdr-navy-20 {\n  border: 1px solid #587ca0;\n}\n\n.bdr-navy-30 {\n  border: 1px solid #7796b4;\n}\n\n.navy {\n  color: #34495e;\n}\n\n.navy-10 {\n  color: #46637f;\n}\n\n.navy-20 {\n  color: #587ca0;\n}\n\n.navy-30 {\n  color: #7796b4;\n}\n\n.bg-aqua {\n  background: #7FDBFF;\n}\n\n.bg-aqua-10 {\n  background: #b2e9ff;\n}\n\n.bg-aqua-20 {\n  background: #e5f8ff;\n}\n\n.bg-aqua-30 {\n  background: white;\n}\n\n.fill-aqua {\n  fill: #7FDBFF;\n}\n\n.fill-aqua-10 {\n  fill: #b2e9ff;\n}\n\n.fill-aqua-20 {\n  fill: #e5f8ff;\n}\n\n.fill-aqua-30 {\n  fill: white;\n}\n\n.bdr-aqua {\n  border: 1px solid #7FDBFF;\n}\n\n.bdr-aqua-10 {\n  border: 1px solid #b2e9ff;\n}\n\n.bdr-aqua-20 {\n  border: 1px solid #e5f8ff;\n}\n\n.bdr-aqua-30 {\n  border: 1px solid white;\n}\n\n.aqua {\n  color: #7FDBFF;\n}\n\n.aqua-10 {\n  color: #b2e9ff;\n}\n\n.aqua-20 {\n  color: #e5f8ff;\n}\n\n.aqua-30 {\n  color: white;\n}\n\n.bg-teal {\n  background: #39CCCC;\n}\n\n.bg-teal-10 {\n  background: #62d6d6;\n}\n\n.bg-teal-20 {\n  background: #8ae1e1;\n}\n\n.bg-teal-30 {\n  background: #b3ebeb;\n}\n\n.fill-teal {\n  fill: #39CCCC;\n}\n\n.fill-teal-10 {\n  fill: #62d6d6;\n}\n\n.fill-teal-20 {\n  fill: #8ae1e1;\n}\n\n.fill-teal-30 {\n  fill: #b3ebeb;\n}\n\n.bdr-teal {\n  border: 1px solid #39CCCC;\n}\n\n.bdr-teal-10 {\n  border: 1px solid #62d6d6;\n}\n\n.bdr-teal-20 {\n  border: 1px solid #8ae1e1;\n}\n\n.bdr-teal-30 {\n  border: 1px solid #b3ebeb;\n}\n\n.teal {\n  color: #39CCCC;\n}\n\n.teal-10 {\n  color: #62d6d6;\n}\n\n.teal-20 {\n  color: #8ae1e1;\n}\n\n.teal-30 {\n  color: #b3ebeb;\n}\n\n.bg-maroon {\n  background: #85144b;\n}\n\n.bg-maroon-10 {\n  background: #b11b64;\n}\n\n.bg-maroon-20 {\n  background: #de217d;\n}\n\n.bg-maroon-30 {\n  background: #e44e97;\n}\n\n.fill-maroon {\n  fill: #85144b;\n}\n\n.fill-maroon-10 {\n  fill: #b11b64;\n}\n\n.fill-maroon-20 {\n  fill: #de217d;\n}\n\n.fill-maroon-30 {\n  fill: #e44e97;\n}\n\n.bdr-maroon {\n  border: 1px solid #85144b;\n}\n\n.bdr-maroon-10 {\n  border: 1px solid #b11b64;\n}\n\n.bdr-maroon-20 {\n  border: 1px solid #de217d;\n}\n\n.bdr-maroon-30 {\n  border: 1px solid #e44e97;\n}\n\n.maroon {\n  color: #85144b;\n}\n\n.maroon-10 {\n  color: #b11b64;\n}\n\n.maroon-20 {\n  color: #de217d;\n}\n\n.maroon-30 {\n  color: #e44e97;\n}\n\n.bg-lime {\n  background: #01FF70;\n}\n\n.bg-lime-10 {\n  background: #34ff8d;\n}\n\n.bg-lime-20 {\n  background: #67ffa9;\n}\n\n.bg-lime-30 {\n  background: #9affc6;\n}\n\n.fill-lime {\n  fill: #01FF70;\n}\n\n.fill-lime-10 {\n  fill: #34ff8d;\n}\n\n.fill-lime-20 {\n  fill: #67ffa9;\n}\n\n.fill-lime-30 {\n  fill: #9affc6;\n}\n\n.bdr-lime {\n  border: 1px solid #01FF70;\n}\n\n.bdr-lime-10 {\n  border: 1px solid #34ff8d;\n}\n\n.bdr-lime-20 {\n  border: 1px solid #67ffa9;\n}\n\n.bdr-lime-30 {\n  border: 1px solid #9affc6;\n}\n\n.lime {\n  color: #01FF70;\n}\n\n.lime-10 {\n  color: #34ff8d;\n}\n\n.lime-20 {\n  color: #67ffa9;\n}\n\n.lime-30 {\n  color: #9affc6;\n}\n\n.bg-olive {\n  background: #3D9970;\n}\n\n.bg-olive-10 {\n  background: #50b98a;\n}\n\n.bg-olive-20 {\n  background: #74c8a3;\n}\n\n.bg-olive-30 {\n  background: #99d6bb;\n}\n\n.fill-olive {\n  fill: #3D9970;\n}\n\n.fill-olive-10 {\n  fill: #50b98a;\n}\n\n.fill-olive-20 {\n  fill: #74c8a3;\n}\n\n.fill-olive-30 {\n  fill: #99d6bb;\n}\n\n.bdr-olive {\n  border: 1px solid #3D9970;\n}\n\n.bdr-olive-10 {\n  border: 1px solid #50b98a;\n}\n\n.bdr-olive-20 {\n  border: 1px solid #74c8a3;\n}\n\n.bdr-olive-30 {\n  border: 1px solid #99d6bb;\n}\n\n.olive {\n  color: #3D9970;\n}\n\n.olive-10 {\n  color: #50b98a;\n}\n\n.olive-20 {\n  color: #74c8a3;\n}\n\n.olive-30 {\n  color: #99d6bb;\n}\n\n.bg-white {\n  background: #fff;\n}\n\n.bg-white-10 {\n  background: white;\n}\n\n.bg-white-20 {\n  background: white;\n}\n\n.bg-white-30 {\n  background: white;\n}\n\n.fill-white {\n  fill: #fff;\n}\n\n.fill-white-10 {\n  fill: white;\n}\n\n.fill-white-20 {\n  fill: white;\n}\n\n.fill-white-30 {\n  fill: white;\n}\n\n.bdr-white {\n  border: 1px solid #fff;\n}\n\n.bdr-white-10 {\n  border: 1px solid white;\n}\n\n.bdr-white-20 {\n  border: 1px solid white;\n}\n\n.bdr-white-30 {\n  border: 1px solid white;\n}\n\n.white {\n  color: #fff;\n}\n\n.white-10 {\n  color: white;\n}\n\n.white-20 {\n  color: white;\n}\n\n.white-30 {\n  color: white;\n}\n\n.bg-light {\n  background: #f9f9f9;\n}\n\n.bg-light-10 {\n  background: white;\n}\n\n.bg-light-20 {\n  background: white;\n}\n\n.bg-light-30 {\n  background: white;\n}\n\n.fill-light {\n  fill: #f9f9f9;\n}\n\n.fill-light-10 {\n  fill: white;\n}\n\n.fill-light-20 {\n  fill: white;\n}\n\n.fill-light-30 {\n  fill: white;\n}\n\n.bdr-light {\n  border: 1px solid #f9f9f9;\n}\n\n.bdr-light-10 {\n  border: 1px solid white;\n}\n\n.bdr-light-20 {\n  border: 1px solid white;\n}\n\n.bdr-light-30 {\n  border: 1px solid white;\n}\n\n.light {\n  color: #f9f9f9;\n}\n\n.light-10 {\n  color: white;\n}\n\n.light-20 {\n  color: white;\n}\n\n.light-30 {\n  color: white;\n}\n\n.bg-grey {\n  background: #e5e5e5;\n}\n\n.bg-grey-10 {\n  background: white;\n}\n\n.bg-grey-20 {\n  background: white;\n}\n\n.bg-grey-30 {\n  background: white;\n}\n\n.fill-grey {\n  fill: #e5e5e5;\n}\n\n.fill-grey-10 {\n  fill: white;\n}\n\n.fill-grey-20 {\n  fill: white;\n}\n\n.fill-grey-30 {\n  fill: white;\n}\n\n.bdr-grey {\n  border: 1px solid #e5e5e5;\n}\n\n.bdr-grey-10 {\n  border: 1px solid white;\n}\n\n.bdr-grey-20 {\n  border: 1px solid white;\n}\n\n.bdr-grey-30 {\n  border: 1px solid white;\n}\n\n.grey {\n  color: #e5e5e5;\n}\n\n.grey-10 {\n  color: white;\n}\n\n.grey-20 {\n  color: white;\n}\n\n.grey-30 {\n  color: white;\n}\n\n.bg-dark {\n  background: #666;\n}\n\n.bg-dark-10 {\n  background: gray;\n}\n\n.bg-dark-20 {\n  background: #999999;\n}\n\n.bg-dark-30 {\n  background: #b3b3b3;\n}\n\n.fill-dark {\n  fill: #666;\n}\n\n.fill-dark-10 {\n  fill: gray;\n}\n\n.fill-dark-20 {\n  fill: #999999;\n}\n\n.fill-dark-30 {\n  fill: #b3b3b3;\n}\n\n.bdr-dark {\n  border: 1px solid #666;\n}\n\n.bdr-dark-10 {\n  border: 1px solid gray;\n}\n\n.bdr-dark-20 {\n  border: 1px solid #999999;\n}\n\n.bdr-dark-30 {\n  border: 1px solid #b3b3b3;\n}\n\n.dark {\n  color: #666;\n}\n\n.dark-10 {\n  color: gray;\n}\n\n.dark-20 {\n  color: #999999;\n}\n\n.dark-30 {\n  color: #b3b3b3;\n}\n\n.bg-almost-black {\n  background: #333;\n}\n\n.bg-almost-black-10 {\n  background: #4d4d4d;\n}\n\n.bg-almost-black-20 {\n  background: #666666;\n}\n\n.bg-almost-black-30 {\n  background: gray;\n}\n\n.fill-almost-black {\n  fill: #333;\n}\n\n.fill-almost-black-10 {\n  fill: #4d4d4d;\n}\n\n.fill-almost-black-20 {\n  fill: #666666;\n}\n\n.fill-almost-black-30 {\n  fill: gray;\n}\n\n.bdr-almost-black {\n  border: 1px solid #333;\n}\n\n.bdr-almost-black-10 {\n  border: 1px solid #4d4d4d;\n}\n\n.bdr-almost-black-20 {\n  border: 1px solid #666666;\n}\n\n.bdr-almost-black-30 {\n  border: 1px solid gray;\n}\n\n.almost-black {\n  color: #333;\n}\n\n.almost-black-10 {\n  color: #4d4d4d;\n}\n\n.almost-black-20 {\n  color: #666666;\n}\n\n.almost-black-30 {\n  color: gray;\n}\n\n.bg-black {\n  background: #000;\n}\n\n.bg-black-10 {\n  background: #1a1a1a;\n}\n\n.bg-black-20 {\n  background: #333333;\n}\n\n.bg-black-30 {\n  background: #4d4d4d;\n}\n\n.fill-black {\n  fill: #000;\n}\n\n.fill-black-10 {\n  fill: #1a1a1a;\n}\n\n.fill-black-20 {\n  fill: #333333;\n}\n\n.fill-black-30 {\n  fill: #4d4d4d;\n}\n\n.bdr-black {\n  border: 1px solid #000;\n}\n\n.bdr-black-10 {\n  border: 1px solid #1a1a1a;\n}\n\n.bdr-black-20 {\n  border: 1px solid #333333;\n}\n\n.bdr-black-30 {\n  border: 1px solid #4d4d4d;\n}\n\n.black {\n  color: #000;\n}\n\n.black-10 {\n  color: #1a1a1a;\n}\n\n.black-20 {\n  color: #333333;\n}\n\n.black-30 {\n  color: #4d4d4d;\n}\n\n.bg-brand {\n  background: #0074D9;\n}\n\n.bg-brand-10 {\n  background: #0d8eff;\n}\n\n.bg-brand-20 {\n  background: #40a6ff;\n}\n\n.bg-brand-30 {\n  background: #73beff;\n}\n\n.fill-brand {\n  fill: #0074D9;\n}\n\n.fill-brand-10 {\n  fill: #0d8eff;\n}\n\n.fill-brand-20 {\n  fill: #40a6ff;\n}\n\n.fill-brand-30 {\n  fill: #73beff;\n}\n\n.bdr-brand {\n  border: 1px solid #0074D9;\n}\n\n.bdr-brand-10 {\n  border: 1px solid #0d8eff;\n}\n\n.bdr-brand-20 {\n  border: 1px solid #40a6ff;\n}\n\n.bdr-brand-30 {\n  border: 1px solid #73beff;\n}\n\n.brand {\n  color: #0074D9;\n}\n\n.brand-10 {\n  color: #0d8eff;\n}\n\n.brand-20 {\n  color: #40a6ff;\n}\n\n.brand-30 {\n  color: #73beff;\n}\n\n.bg-primary {\n  background: #0074D9;\n}\n\n.bg-primary-10 {\n  background: #0d8eff;\n}\n\n.bg-primary-20 {\n  background: #40a6ff;\n}\n\n.bg-primary-30 {\n  background: #73beff;\n}\n\n.fill-primary {\n  fill: #0074D9;\n}\n\n.fill-primary-10 {\n  fill: #0d8eff;\n}\n\n.fill-primary-20 {\n  fill: #40a6ff;\n}\n\n.fill-primary-30 {\n  fill: #73beff;\n}\n\n.bdr-primary {\n  border: 1px solid #0074D9;\n}\n\n.bdr-primary-10 {\n  border: 1px solid #0d8eff;\n}\n\n.bdr-primary-20 {\n  border: 1px solid #40a6ff;\n}\n\n.bdr-primary-30 {\n  border: 1px solid #73beff;\n}\n\n.primary {\n  color: #0074D9;\n}\n\n.primary-10 {\n  color: #0d8eff;\n}\n\n.primary-20 {\n  color: #40a6ff;\n}\n\n.primary-30 {\n  color: #73beff;\n}\n\n.bg-secondary {\n  background: #f9f9f9;\n}\n\n.bg-secondary-10 {\n  background: white;\n}\n\n.bg-secondary-20 {\n  background: white;\n}\n\n.bg-secondary-30 {\n  background: white;\n}\n\n.fill-secondary {\n  fill: #f9f9f9;\n}\n\n.fill-secondary-10 {\n  fill: white;\n}\n\n.fill-secondary-20 {\n  fill: white;\n}\n\n.fill-secondary-30 {\n  fill: white;\n}\n\n.bdr-secondary {\n  border: 1px solid #f9f9f9;\n}\n\n.bdr-secondary-10 {\n  border: 1px solid white;\n}\n\n.bdr-secondary-20 {\n  border: 1px solid white;\n}\n\n.bdr-secondary-30 {\n  border: 1px solid white;\n}\n\n.secondary {\n  color: #f9f9f9;\n}\n\n.secondary-10 {\n  color: white;\n}\n\n.secondary-20 {\n  color: white;\n}\n\n.secondary-30 {\n  color: white;\n}\n\n.bg-success {\n  background: #2ECC40;\n}\n\n.bg-success-10 {\n  background: #54d964;\n}\n\n.bg-success-20 {\n  background: #7ee289;\n}\n\n.bg-success-30 {\n  background: #a8ebaf;\n}\n\n.fill-success {\n  fill: #2ECC40;\n}\n\n.fill-success-10 {\n  fill: #54d964;\n}\n\n.fill-success-20 {\n  fill: #7ee289;\n}\n\n.fill-success-30 {\n  fill: #a8ebaf;\n}\n\n.bdr-success {\n  border: 1px solid #2ECC40;\n}\n\n.bdr-success-10 {\n  border: 1px solid #54d964;\n}\n\n.bdr-success-20 {\n  border: 1px solid #7ee289;\n}\n\n.bdr-success-30 {\n  border: 1px solid #a8ebaf;\n}\n\n.success {\n  color: #2ECC40;\n}\n\n.success-10 {\n  color: #54d964;\n}\n\n.success-20 {\n  color: #7ee289;\n}\n\n.success-30 {\n  color: #a8ebaf;\n}\n\n.bg-info {\n  background: #39CCCC;\n}\n\n.bg-info-10 {\n  background: #62d6d6;\n}\n\n.bg-info-20 {\n  background: #8ae1e1;\n}\n\n.bg-info-30 {\n  background: #b3ebeb;\n}\n\n.fill-info {\n  fill: #39CCCC;\n}\n\n.fill-info-10 {\n  fill: #62d6d6;\n}\n\n.fill-info-20 {\n  fill: #8ae1e1;\n}\n\n.fill-info-30 {\n  fill: #b3ebeb;\n}\n\n.bdr-info {\n  border: 1px solid #39CCCC;\n}\n\n.bdr-info-10 {\n  border: 1px solid #62d6d6;\n}\n\n.bdr-info-20 {\n  border: 1px solid #8ae1e1;\n}\n\n.bdr-info-30 {\n  border: 1px solid #b3ebeb;\n}\n\n.info {\n  color: #39CCCC;\n}\n\n.info-10 {\n  color: #62d6d6;\n}\n\n.info-20 {\n  color: #8ae1e1;\n}\n\n.info-30 {\n  color: #b3ebeb;\n}\n\n.bg-warning {\n  background: #FFDC00;\n}\n\n.bg-warning-10 {\n  background: #ffe333;\n}\n\n.bg-warning-20 {\n  background: #ffea66;\n}\n\n.bg-warning-30 {\n  background: #fff199;\n}\n\n.fill-warning {\n  fill: #FFDC00;\n}\n\n.fill-warning-10 {\n  fill: #ffe333;\n}\n\n.fill-warning-20 {\n  fill: #ffea66;\n}\n\n.fill-warning-30 {\n  fill: #fff199;\n}\n\n.bdr-warning {\n  border: 1px solid #FFDC00;\n}\n\n.bdr-warning-10 {\n  border: 1px solid #ffe333;\n}\n\n.bdr-warning-20 {\n  border: 1px solid #ffea66;\n}\n\n.bdr-warning-30 {\n  border: 1px solid #fff199;\n}\n\n.warning {\n  color: #FFDC00;\n}\n\n.warning-10 {\n  color: #ffe333;\n}\n\n.warning-20 {\n  color: #ffea66;\n}\n\n.warning-30 {\n  color: #fff199;\n}\n\n.bg-error {\n  background: #FF4136;\n}\n\n.bg-error-10 {\n  background: #ff7169;\n}\n\n.bg-error-20 {\n  background: #ffa19c;\n}\n\n.bg-error-30 {\n  background: #ffd2cf;\n}\n\n.fill-error {\n  fill: #FF4136;\n}\n\n.fill-error-10 {\n  fill: #ff7169;\n}\n\n.fill-error-20 {\n  fill: #ffa19c;\n}\n\n.fill-error-30 {\n  fill: #ffd2cf;\n}\n\n.bdr-error {\n  border: 1px solid #FF4136;\n}\n\n.bdr-error-10 {\n  border: 1px solid #ff7169;\n}\n\n.bdr-error-20 {\n  border: 1px solid #ffa19c;\n}\n\n.bdr-error-30 {\n  border: 1px solid #ffd2cf;\n}\n\n.error {\n  color: #FF4136;\n}\n\n.error-10 {\n  color: #ff7169;\n}\n\n.error-20 {\n  color: #ffa19c;\n}\n\n.error-30 {\n  color: #ffd2cf;\n}\n\nbody {\n  background: white;\n  padding: 0;\n  margin: 0;\n  padding: 20px;\n}\n\n.Header {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  background: #f5f5f5;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n}\n\n.logo {\n  width: 80px;\n  margin-right: 40px;\n}\n.logo__img {\n  width: 100%;\n}\n\n.row {\n  display: flex;\n  padding: 10px;\n  border: 1px solid #ccc;\n}\n.row > div {\n  padding: 20px;\n  margin-right: 10px;\n}","body {\n  background: white;\n  padding: 0;\n  margin: 0;\n  padding: 20px;\n}\n\n.Header {\n  display: flex;\n  justify-content: flex-start;\n  align-items: center;\n  background: #f5f5f5;\n  padding: 10px;\n  border-bottom: 1px solid #ccc;\n}\n\n.logo {\n  width: 80px;\n  margin-right: 40px;\n  &__img {\n    width: 100%;\n  }\n}\n\n.row {\n  display: flex;\n  padding: 10px;\n  border: 1px solid #ccc;\n\n  > div {\n    padding: 20px;\n    margin-right: 10px;\n  }\n}\n"]}]);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/api.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], "{").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    for (var i = 0; i < this.length; i++) {
+      // eslint-disable-next-line prefer-destructuring
+      var id = this[i][0];
+
+      if (id != null) {
+        alreadyImportedModules[id] = true;
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = modules[_i]; // skip already imported module
+      // this implementation is not 100% perfect for weird media query combinations
+      // when a module is imported multiple times with different media queries.
+      // I hope this will never occur (Hey this way we have smaller bundles)
+
+      if (item[0] == null || !alreadyImportedModules[item[0]]) {
+        if (mediaQuery && !item[2]) {
+          item[2] = mediaQuery;
+        } else if (mediaQuery) {
+          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
+        }
+
+        list.push(item);
+      }
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
+
+/***/ }),
+
 /***/ "./node_modules/native-url/dist/index.js":
 /*!***********************************************!*\
   !*** ./node_modules/native-url/dist/index.js ***!
@@ -421,20 +478,20 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./":
-/*!*******************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app ***!
-  \*******************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./":
+/*!*********************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/_app", function() {
-      var mod = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+      var mod = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
       if(true) {
-        module.hot.accept(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js", function() {
+        module.hot.accept(/*! private-next-pages/_app.js */ "./pages/_app.js", function() {
           if(!next.router.components["/_app"]) return
-          var updatedPage = __webpack_require__(/*! next/dist/pages/_app */ "./node_modules/next/dist/pages/_app.js")
+          var updatedPage = __webpack_require__(/*! private-next-pages/_app.js */ "./pages/_app.js")
           next.router.update("/_app", updatedPage)
         })
       }
@@ -1837,183 +1894,6 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/pages/_app.js":
-/*!**********************************************!*\
-  !*** ./node_modules/next/dist/pages/_app.js ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-
-var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-
-var _inherits = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-
-var _possibleConstructorReturn = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-
-var _getPrototypeOf = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-
-var _regeneratorRuntime = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
-
-function _createSuper(Derived) { return function () { var Super = _getPrototypeOf(Derived), result; if (_isNativeReflectConstruct()) { var NewTarget = _getPrototypeOf(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _possibleConstructorReturn(this, result); }; }
-
-function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
-
-var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
-
-exports.__esModule = true;
-exports.Container = Container;
-exports.createUrl = createUrl;
-exports["default"] = void 0;
-
-var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var _utils = __webpack_require__(/*! ../next-server/lib/utils */ "./node_modules/next/dist/next-server/lib/utils.js");
-
-exports.AppInitialProps = _utils.AppInitialProps;
-/**
-* `App` component is used for initialize of pages. It allows for overwriting and full control of the `page` initialization.
-* This allows for keeping state between navigation, custom error handling, injecting additional data.
-*/
-
-function appGetInitialProps(_ref) {
-  var Component, ctx, pageProps;
-  return _regeneratorRuntime.async(function appGetInitialProps$(_context) {
-    while (1) {
-      switch (_context.prev = _context.next) {
-        case 0:
-          Component = _ref.Component, ctx = _ref.ctx;
-          _context.next = 3;
-          return _regeneratorRuntime.awrap((0, _utils.loadGetInitialProps)(Component, ctx));
-
-        case 3:
-          pageProps = _context.sent;
-          return _context.abrupt("return", {
-            pageProps: pageProps
-          });
-
-        case 5:
-        case "end":
-          return _context.stop();
-      }
-    }
-  }, null, null, null, Promise);
-}
-
-var App = /*#__PURE__*/function (_react$default$Compon) {
-  _inherits(App, _react$default$Compon);
-
-  var _super = _createSuper(App);
-
-  function App() {
-    _classCallCheck(this, App);
-
-    return _super.apply(this, arguments);
-  }
-
-  _createClass(App, [{
-    key: "componentDidCatch",
-    // Kept here for backwards compatibility.
-    // When someone ended App they could call `super.componentDidCatch`.
-    // @deprecated This method is no longer needed. Errors are caught at the top level
-    value: function componentDidCatch(error, _errorInfo) {
-      throw error;
-    }
-  }, {
-    key: "render",
-    value: function render() {
-      var _this$props = this.props,
-          router = _this$props.router,
-          Component = _this$props.Component,
-          pageProps = _this$props.pageProps,
-          __N_SSG = _this$props.__N_SSG,
-          __N_SSP = _this$props.__N_SSP;
-      return _react["default"].createElement(Component, Object.assign({}, pageProps, // we don't add the legacy URL prop if it's using non-legacy
-      // methods like getStaticProps and getServerSideProps
-      !(__N_SSG || __N_SSP) ? {
-        url: createUrl(router)
-      } : {}));
-    }
-  }]);
-
-  return App;
-}(_react["default"].Component);
-
-exports["default"] = App;
-App.origGetInitialProps = appGetInitialProps;
-App.getInitialProps = appGetInitialProps;
-var warnContainer;
-var warnUrl;
-
-if (true) {
-  warnContainer = (0, _utils.execOnce)(function () {
-    console.warn("Warning: the `Container` in `_app` has been deprecated and should be removed. https://err.sh/zeit/next.js/app-container-deprecated");
-  });
-  warnUrl = (0, _utils.execOnce)(function () {
-    console.error("Warning: the 'url' property is deprecated. https://err.sh/zeit/next.js/url-deprecated");
-  });
-} // @deprecated noop for now until removal
-
-
-function Container(p) {
-  if (true) warnContainer();
-  return p.children;
-}
-
-function createUrl(router) {
-  // This is to make sure we don't references the router object at call time
-  var pathname = router.pathname,
-      asPath = router.asPath,
-      query = router.query;
-  return {
-    get query() {
-      if (true) warnUrl();
-      return query;
-    },
-
-    get pathname() {
-      if (true) warnUrl();
-      return pathname;
-    },
-
-    get asPath() {
-      if (true) warnUrl();
-      return asPath;
-    },
-
-    back: function back() {
-      if (true) warnUrl();
-      router.back();
-    },
-    push: function push(url, as) {
-      if (true) warnUrl();
-      return router.push(url, as);
-    },
-    pushTo: function pushTo(href, as) {
-      if (true) warnUrl();
-      var pushRoute = as ? href : '';
-      var pushUrl = as || href;
-      return router.push(pushRoute, pushUrl);
-    },
-    replace: function replace(url, as) {
-      if (true) warnUrl();
-      return router.replace(url, as);
-    },
-    replaceTo: function replaceTo(href, as) {
-      if (true) warnUrl();
-      var replaceRoute = as ? href : '';
-      var replaceUrl = as || href;
-      return router.replace(replaceRoute, replaceUrl);
-    }
-  };
-}
-
-/***/ }),
-
 /***/ "./node_modules/querystring-es3/decode.js":
 /*!************************************************!*\
   !*** ./node_modules/querystring-es3/decode.js ***!
@@ -3230,14 +3110,403 @@ try {
 
 /***/ }),
 
-/***/ 0:
-/*!*****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app ./node_modules/next/dist/client/router.js ***!
-  \*****************************************************************************************************************************************/
+/***/ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js ***!
+  \****************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=next%2Fdist%2Fpages%2F_app!./");
+"use strict";
+
+
+var stylesInDom = {};
+
+var isOldIE = function isOldIE() {
+  var memo;
+  return function memorize() {
+    if (typeof memo === 'undefined') {
+      // Test for IE <= 9 as proposed by Browserhacks
+      // @see http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+      // Tests for existence of standard globals is to allow style-loader
+      // to operate correctly into non-standard environments
+      // @see https://github.com/webpack-contrib/style-loader/issues/177
+      memo = Boolean(window && document && document.all && !window.atob);
+    }
+
+    return memo;
+  };
+}();
+
+var getTarget = function getTarget() {
+  var memo = {};
+  return function memorize(target) {
+    if (typeof memo[target] === 'undefined') {
+      var styleTarget = document.querySelector(target); // Special case to return head of iframe instead of iframe itself
+
+      if (window.HTMLIFrameElement && styleTarget instanceof window.HTMLIFrameElement) {
+        try {
+          // This will throw an exception if access to iframe is blocked
+          // due to cross-origin restrictions
+          styleTarget = styleTarget.contentDocument.head;
+        } catch (e) {
+          // istanbul ignore next
+          styleTarget = null;
+        }
+      }
+
+      memo[target] = styleTarget;
+    }
+
+    return memo[target];
+  };
+}();
+
+function listToStyles(list, options) {
+  var styles = [];
+  var newStyles = {};
+
+  for (var i = 0; i < list.length; i++) {
+    var item = list[i];
+    var id = options.base ? item[0] + options.base : item[0];
+    var css = item[1];
+    var media = item[2];
+    var sourceMap = item[3];
+    var part = {
+      css: css,
+      media: media,
+      sourceMap: sourceMap
+    };
+
+    if (!newStyles[id]) {
+      styles.push(newStyles[id] = {
+        id: id,
+        parts: [part]
+      });
+    } else {
+      newStyles[id].parts.push(part);
+    }
+  }
+
+  return styles;
+}
+
+function addStylesToDom(styles, options) {
+  for (var i = 0; i < styles.length; i++) {
+    var item = styles[i];
+    var domStyle = stylesInDom[item.id];
+    var j = 0;
+
+    if (domStyle) {
+      domStyle.refs++;
+
+      for (; j < domStyle.parts.length; j++) {
+        domStyle.parts[j](item.parts[j]);
+      }
+
+      for (; j < item.parts.length; j++) {
+        domStyle.parts.push(addStyle(item.parts[j], options));
+      }
+    } else {
+      var parts = [];
+
+      for (; j < item.parts.length; j++) {
+        parts.push(addStyle(item.parts[j], options));
+      }
+
+      stylesInDom[item.id] = {
+        id: item.id,
+        refs: 1,
+        parts: parts
+      };
+    }
+  }
+}
+
+function insertStyleElement(options) {
+  var style = document.createElement('style');
+
+  if (typeof options.attributes.nonce === 'undefined') {
+    var nonce =  true ? __webpack_require__.nc : undefined;
+
+    if (nonce) {
+      options.attributes.nonce = nonce;
+    }
+  }
+
+  Object.keys(options.attributes).forEach(function (key) {
+    style.setAttribute(key, options.attributes[key]);
+  });
+
+  if (typeof options.insert === 'function') {
+    options.insert(style);
+  } else {
+    var target = getTarget(options.insert || 'head');
+
+    if (!target) {
+      throw new Error("Couldn't find a style target. This probably means that the value for the 'insert' parameter is invalid.");
+    }
+
+    target.appendChild(style);
+  }
+
+  return style;
+}
+
+function removeStyleElement(style) {
+  // istanbul ignore if
+  if (style.parentNode === null) {
+    return false;
+  }
+
+  style.parentNode.removeChild(style);
+}
+/* istanbul ignore next  */
+
+
+var replaceText = function replaceText() {
+  var textStore = [];
+  return function replace(index, replacement) {
+    textStore[index] = replacement;
+    return textStore.filter(Boolean).join('\n');
+  };
+}();
+
+function applyToSingletonTag(style, index, remove, obj) {
+  var css = remove ? '' : obj.css; // For old IE
+
+  /* istanbul ignore if  */
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = replaceText(index, css);
+  } else {
+    var cssNode = document.createTextNode(css);
+    var childNodes = style.childNodes;
+
+    if (childNodes[index]) {
+      style.removeChild(childNodes[index]);
+    }
+
+    if (childNodes.length) {
+      style.insertBefore(cssNode, childNodes[index]);
+    } else {
+      style.appendChild(cssNode);
+    }
+  }
+}
+
+function applyToTag(style, options, obj) {
+  var css = obj.css;
+  var media = obj.media;
+  var sourceMap = obj.sourceMap;
+
+  if (media) {
+    style.setAttribute('media', media);
+  }
+
+  if (sourceMap && btoa) {
+    css += "\n/*# sourceMappingURL=data:application/json;base64,".concat(btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap)))), " */");
+  } // For old IE
+
+  /* istanbul ignore if  */
+
+
+  if (style.styleSheet) {
+    style.styleSheet.cssText = css;
+  } else {
+    while (style.firstChild) {
+      style.removeChild(style.firstChild);
+    }
+
+    style.appendChild(document.createTextNode(css));
+  }
+}
+
+var singleton = null;
+var singletonCounter = 0;
+
+function addStyle(obj, options) {
+  var style;
+  var update;
+  var remove;
+
+  if (options.singleton) {
+    var styleIndex = singletonCounter++;
+    style = singleton || (singleton = insertStyleElement(options));
+    update = applyToSingletonTag.bind(null, style, styleIndex, false);
+    remove = applyToSingletonTag.bind(null, style, styleIndex, true);
+  } else {
+    style = insertStyleElement(options);
+    update = applyToTag.bind(null, style, options);
+
+    remove = function remove() {
+      removeStyleElement(style);
+    };
+  }
+
+  update(obj);
+  return function updateStyle(newObj) {
+    if (newObj) {
+      if (newObj.css === obj.css && newObj.media === obj.media && newObj.sourceMap === obj.sourceMap) {
+        return;
+      }
+
+      update(obj = newObj);
+    } else {
+      remove();
+    }
+  };
+}
+
+module.exports = function (list, options) {
+  options = options || {};
+  options.attributes = typeof options.attributes === 'object' ? options.attributes : {}; // Force single-tag solution on IE6-9, which has a hard limit on the # of <style>
+  // tags it will allow on a page
+
+  if (!options.singleton && typeof options.singleton !== 'boolean') {
+    options.singleton = isOldIE();
+  }
+
+  var styles = listToStyles(list, options);
+  addStylesToDom(styles, options);
+  return function update(newList) {
+    var mayRemove = [];
+
+    for (var i = 0; i < styles.length; i++) {
+      var item = styles[i];
+      var domStyle = stylesInDom[item.id];
+
+      if (domStyle) {
+        domStyle.refs--;
+        mayRemove.push(domStyle);
+      }
+    }
+
+    if (newList) {
+      var newStyles = listToStyles(newList, options);
+      addStylesToDom(newStyles, options);
+    }
+
+    for (var _i = 0; _i < mayRemove.length; _i++) {
+      var _domStyle = mayRemove[_i];
+
+      if (_domStyle.refs === 0) {
+        for (var j = 0; j < _domStyle.parts.length; j++) {
+          _domStyle.parts[j]();
+        }
+
+        delete stylesInDom[_domStyle.id];
+      }
+    }
+  };
+};
+
+/***/ }),
+
+/***/ "./pages/_app.js":
+/*!***********************!*\
+  !*** ./pages/_app.js ***!
+  \***********************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyApp; });
+/* harmony import */ var _babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/extends */ "./node_modules/@babel/runtime/helpers/esm/extends.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
+/* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_2__);
+
+var _jsxFileName = "/Users/andreortiz/Desktop/helloandre/pages/_app.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+function MyApp(_ref) {
+  var Component = _ref.Component,
+      pageProps = _ref.pageProps;
+  return __jsx(Component, Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4,
+      columnNumber: 10
+    }
+  }));
+}
+
+/***/ }),
+
+/***/ "./styles/styles.scss":
+/*!****************************!*\
+  !*** ./styles/styles.scss ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./styles.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./styles/styles.scss");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = function(element){// These elements should always exist. If they do not,
+// this code should fail.
+var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
+// Each style tag should be placed right before our
+// anchor. By inserting before and not after, we do not
+// need to track the last inserted element.
+parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
+//
+// After styles are injected, we need to remove the
+// <style> tags that set `body { display: none; }`.
+//
+// We use `requestAnimationFrame` as a way to defer
+// this operation since there may be multiple style
+// tags.
+;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./styles.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./styles/styles.scss",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!../node_modules/resolve-url-loader??ref--5-oneOf-6-3!../node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./styles.scss */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./node_modules/resolve-url-loader/index.js?!./node_modules/sass-loader/dist/cjs.js?!./styles/styles.scss");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
+/***/ 0:
+/*!*******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js ./node_modules/next/dist/client/router.js ***!
+  \*******************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
 module.exports = __webpack_require__(/*! /Users/andreortiz/Desktop/helloandre/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
 
 
