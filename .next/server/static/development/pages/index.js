@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,72 +106,74 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _logo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./logo */ "./components/logo.js");
 var _jsxFileName = "/Users/andreortiz/Desktop/helloandre/components/header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const _linkStyle = {
-  marginRight: 15
-};
+
 const navData = [{
   title: 'Home',
-  path: '/',
-  linkStyle: _linkStyle
+  path: '/'
 }, {
   title: 'Work',
-  path: '/work',
-  linkStyle: _linkStyle
+  path: '/work'
 }, {
   title: 'About me',
-  path: '/about',
-  linkStyle: _linkStyle
+  path: '/about'
 }];
 
 const Header = () => __jsx("div", {
-  className: "Header",
+  className: "c-site-header",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9,
+    columnNumber: 3
+  }
+}, __jsx("div", {
+  className: "c-site-header__wrapper",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 10,
-    columnNumber: 3
+    columnNumber: 5
   }
-}, __jsx("div", {
-  className: "logo",
+}, __jsx(_logo__WEBPACK_IMPORTED_MODULE_2__["default"], {
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11,
-    columnNumber: 5
+    columnNumber: 7
   }
-}, __jsx("img", {
-  className: "logo__img",
-  src: "/images/logo.svg",
+}), __jsx("nav", {
+  className: "c-site-header__nav",
   __self: undefined,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12,
     columnNumber: 7
   }
-})), navData.map((item, index) => {
+}, navData.map((item, index) => {
   return __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     key: index,
     href: item.path,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 15
+      lineNumber: 14,
+      columnNumber: 19
     }
   }, __jsx("a", {
-    style: item.linkStyle,
+    className: "c-site-header__nav-option",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 17
+      lineNumber: 15,
+      columnNumber: 21
     }
   }, item.title));
-}));
+}))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
@@ -226,6 +228,73 @@ const Layout = props => {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
+
+/***/ }),
+
+/***/ "./components/logo.js":
+/*!****************************!*\
+  !*** ./components/logo.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/andreortiz/Desktop/helloandre/components/logo.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Logo = () => __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4,
+    columnNumber: 3
+  }
+}, __jsx("div", {
+  className: "c-logo",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 5
+  }
+}, __jsx("svg", {
+  className: "c-logo__svg",
+  viewBox: "0 0 883 410",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6,
+    columnNumber: 7
+  }
+}, __jsx("path", {
+  d: "M236.714 0L473.427 410H0L236.714 0Z",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 9
+  }
+}), __jsx("circle", {
+  cx: "678",
+  cy: "205",
+  r: "205",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 9
+  }
+}))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Logo);
 
 /***/ }),
 
@@ -1950,7 +2019,15 @@ function Index() {
       lineNumber: 8,
       columnNumber: 9
     }
-  }, "Design Systems and User Experience. Currently working at Reify Health."), __jsx("div", {
+  }, "I am playing with ", __jsx("a", {
+    href: "https://nextjs.org/docs/getting-started",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 31
+    }
+  }, "next.js")), __jsx("div", {
     className: "row",
     __self: this,
     __source: {
@@ -1987,7 +2064,7 @@ function Index() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

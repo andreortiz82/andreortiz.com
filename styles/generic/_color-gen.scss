@@ -19,9 +19,9 @@
     .bdr-#{$class}-30 { border: 1px solid lighten($color, 30%); }
 
     // Text Colors
-    .#{$class} { color: $color; }
-    .#{$class}-10 { color: lighten($color, 10%); }
-    .#{$class}-20 { color: lighten($color, 20%); }
-    .#{$class}-30 { color: lighten($color, 30%); }
+    .text-#{$class} { color: $color; }
+    .text-#{$class}-10 { color: lighten($color, 10%); }
+    .text-#{$class}-20 { color: lighten($color, 20%); }
+    .text-#{$class}-30 { color: lighten($color, 30%); }
   }
 }

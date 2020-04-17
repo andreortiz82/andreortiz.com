@@ -1,0 +1,33 @@
+.round { @include border-radius($round); }
+.radius { @include border-radius; }
+.shadow { @include shadow; }
+.no-scroll,
+.overflow-hide { overflow: hidden; }
+
+// Responsive helper - DEBUG ONLY
+span[role='debug'] {
+  display: block;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  @include mq('lg') { border-top: 5px solid $green; }
+  @include mq('md') { border-top: 5px solid $yellow; }
+  @include mq('sm') { border-top: 5px solid $red; }
+
+  &:after {
+    content: '';
+    display: block;
+    padding: rem(5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: $light;
+    color: $white;
+    font-weight: bold;
+
+    @include mq('lg') { background: $green; content: 'lg'; }
+    @include mq('md') { background: $yellow; content: 'md'; }
+    @include mq('sm') { background: $red; content: 'sm'; }
+  }
+}

@@ -1,0 +1,44 @@
+* { box-sizing: border-box; }
+
+html,
+body {
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+	color: $black;
+  background: white;
+  padding: 0;
+  margin: 0;
+  padding: 20px;
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+hr {
+	border: none;
+	border-bottom: 1px solid $grey;
+	margin: rem(40) 0;
+}
+
+blockquote {
+  border-left: 1px solid $grey;
+  padding-left: rem(10);
+}
+
+// Code
+code,
+kbd {
+	color: $pink;
+	background: $light;
+	padding: rem(5);
+}
+
+// H1-H6
+@each $selector, $size in $heading-sizes {
+	#{$selector} {
+		font-size: rem($size);
+		font-weight: $bold;
+	}
+}
+
+a {
+	color: $blue;
+}

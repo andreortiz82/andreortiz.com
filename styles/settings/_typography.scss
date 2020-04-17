@@ -1,0 +1,25 @@
+// Type
+$h1: 36;
+$h2: 32;
+$h3: 26;
+$h4: 22;
+$h5: 18;
+$lead: 18;
+$subtle: 14;
+$badge-font-size: 12;
+$serif: serif;
+$mono: courier;
+$sans: sans-serif;
+
+// Weights
+$bold: 700;
+$normal: 400;
+
+// Headings
+$heading-sizes: (
+	"h1" : $h1,
+	"h2" : $h2,
+	"h3" : $h3,
+	"h4" : $h4,
+	"h5" : $h5
+);

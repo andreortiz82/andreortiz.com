@@ -34,6 +34,7 @@ $info: $teal;
 $warning: $yellow;
 $error: $red;
 $interesting: $pink;
+
 // Color collection for creating util classes
 $colors: (
   "red": $red,
@@ -61,5 +62,6 @@ $colors: (
   "success": $success,
   "info": $info,
   "warning": $warning,
-  "error": $error
+  "error": $error,
+  "interesting": $interesting
 );

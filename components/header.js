@@ -1,21 +1,22 @@
 import Link from 'next/link';
+import Logo from './logo';
 
-const _linkStyle = {
-  marginRight: 15
-};
-
-const navData = [{title: 'Home', path: '/', linkStyle: _linkStyle}, {title: 'Work', path: '/work', linkStyle: _linkStyle}, {title: 'About me', path: '/about', linkStyle: _linkStyle}];
+const navData = [{title: 'Home', path: '/'},
+                 {title: 'Work', path: '/work'},
+                 {title: 'About me', path: '/about'}];
 
 const Header = () => (
-  <div className='Header'>
-    <div className='logo'>
-      <img className='logo__img' src='/images/logo.svg'/>
+  <div className='c-site-header'>
+    <div className="c-site-header__wrapper">
+      <Logo/>
+      <nav className="c-site-header__nav">
+        { navData.map((item, index) => {
+          return (<Link key={index} href={item.path}>
+                    <a className="c-site-header__nav-option">{item.title}</a>
+                  </Link>)
+        })}
+      </nav>
     </div>
-    { navData.map((item, index) => {
-      return (<Link key={index} href={item.path}>
-                <a style={item.linkStyle}>{item.title}</a>
-              </Link>)
-    })}
   </div>
 );
 

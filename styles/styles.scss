@@ -1,7 +1,27 @@
+// Settings
 @import "./settings/colors";
-@import "./tools/color-gen";
-// @import "./generic/";
-@import "./elements/body";
-// @import "./objects/";
-// @import "./components/"; Added via modules
+@import "./settings/variables";
+@import "./settings/typography";
+
+// Tools
+@import "./tools/mixins";
+@import "./tools/functions";
+
+// Generic
+@import "./generic/color-gen";
+@import "./generic/helpers";
+@import "./generic/typography";
+
+// Elements
+@import "./elements/core-dom";
+
+// Objects
+@import "./objects/grid";
+
+// Components
+@import "./components/logo";
+@import "./components/site-header";
+// @import "./components/";
+
+// Trumps
 // @import "./trumps/";

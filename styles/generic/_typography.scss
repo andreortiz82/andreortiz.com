@@ -1,0 +1,25 @@
+.sans { font-family: 'Helvetica', Arial, sans-serif; }
+.serif { font-family: 'Georgia', Times, serif; }
+
+// Text formatting
+.bold { font-weight: 700 }
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+.strike { text-decoration: line-through; }
+.uppercase { text-transform: uppercase; }
+.downcase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+
+// Paragraphs + Blockquotes
+p.lead,
+blockquote.lead {
+	font-size: rem($lead);
+	line-height: rem(36);
+}
+
+p.subtle,
+blockquote.subtle {
+	font-size: rem($subtle);
+	color: $dark;
+	line-height: rem(20);
+}

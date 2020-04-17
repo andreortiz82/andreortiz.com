@@ -1,0 +1,16 @@
+.c-site-header {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__nav {
+    margin-left: rem(20);
+  }
+
+  &__nav-option {
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+  }
+}
