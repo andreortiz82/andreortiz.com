@@ -1,5 +1,154 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
+/***/ "./components/grid_section.js":
+/*!************************************!*\
+  !*** ./components/grid_section.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _this = undefined,
+    _jsxFileName = "/Users/andreortiz/Desktop/helloandre/components/grid_section.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var caseStudies = [{
+  title: 'Project A',
+  path: '/work/a',
+  cover: 'https://placeimg.com/400/250/any/grayscale'
+}, {
+  title: 'Project B',
+  path: '/work/b',
+  cover: 'https://placeimg.com/400/250/arch/grayscale'
+}, {
+  title: 'Project C',
+  path: '/work/c',
+  cover: 'https://placeimg.com/400/250/nature/grayscale'
+}, {
+  title: 'Project D',
+  path: '/work/d',
+  cover: 'https://placeimg.com/400/250/people/grayscale'
+}, {
+  title: 'Project E',
+  path: '/work/e',
+  cover: 'https://placeimg.com/400/250/tech/grayscale'
+}, {
+  title: 'Project F',
+  path: '/work/f',
+  cover: 'https://placeimg.com/400/250/arch/grayscale'
+}];
+
+var WorkCard = function WorkCard(props) {
+  return __jsx("div", {
+    className: "c-work-card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
+      columnNumber: 3
+    }
+  }, __jsx("div", {
+    className: "c-work-card__title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 5
+    }
+  }, props.title), __jsx("div", {
+    className: "c-work-card__img",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 5
+    }
+  }, __jsx("img", {
+    src: props.cover,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 7
+    }
+  })));
+};
+
+var GridSection = function GridSection(props) {
+  return __jsx("div", {
+    className: "c-grid-section",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 3
+    }
+  }, __jsx("h2", {
+    className: "c-grid-section__title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 5
+    }
+  }, props.title), __jsx("div", {
+    className: "c-grid-section__wrapper",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 5
+    }
+  }, __jsx("section", {
+    className: "c-grid-container",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 7
+    }
+  }, caseStudies.map(function (item, index) {
+    return __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      key: index,
+      href: item.path,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27,
+        columnNumber: 19
+      }
+    }, __jsx("article", {
+      className: "c-grid-container__item",
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 21
+      }
+    }, __jsx(WorkCard, {
+      title: item.title,
+      cover: item.cover,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29,
+        columnNumber: 23
+      }
+    })));
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (GridSection);
+
+/***/ }),
+
 /***/ "./components/header.js":
 /*!******************************!*\
   !*** ./components/header.js ***!
@@ -4507,81 +4656,57 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./components/layout.js");
+/* harmony import */ var _components_grid_section__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/grid_section */ "./components/grid_section.js");
 var _jsxFileName = "/Users/andreortiz/Desktop/helloandre/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 function Index() {
   return __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5,
+      lineNumber: 6,
       columnNumber: 5
     }
   }, __jsx(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6,
+      lineNumber: 7,
       columnNumber: 7
     }
   }, __jsx("h1", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, "\uD83D\uDC4B Hello! My name is Andre."), __jsx("h2", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 8,
       columnNumber: 9
     }
-  }, "I am playing with ", __jsx("a", {
-    href: "https://nextjs.org/docs/getting-started",
+  }, "\uD83D\uDC4B Hello! My name is Andre"), __jsx("p", {
+    className: "lead",
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 31
-    }
-  }, "next.js")), __jsx("div", {
-    className: "row",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 9
     }
-  }, __jsx("div", {
-    className: "bg-red",
+  }, "I design systems and experiences.")), __jsx(_components_grid_section__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Case Studies",
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11,
-      columnNumber: 11
+      columnNumber: 7
     }
-  }), __jsx("div", {
-    className: "bg-blue",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 11
-    }
-  }), __jsx("div", {
-    className: "bg-green",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 11
-    }
-  }))));
-}
+  }));
+} // <h2>I am playing with <a href='https://nextjs.org/docs/getting-started'>next.js</a></h2>
+// <div className='l-row'>
+//   <div className='l-col u-bg-blue u-p-20'></div>
+//   <div className='l-col u-bg-blue-10 u-p-20'></div>
+//   <div className='l-col u-bg-blue-20 u-p-20'></div>
+// </div>
 
 /***/ }),
 

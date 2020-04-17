@@ -1,0 +1,12 @@
+@each $space in $margin-and-padding-breaks {
+  .margin-#{$space} { margin: rem($space); }
+  .margin-top-#{$space} { margin-top: rem($space); }
+  .margin-bottom-#{$space} { margin-bottom: rem($space); }
+  .margin-left-#{$space} { margin-left: rem($space); }
+  .margnin-right-#{$space} { margin-right: rem($space); }
+  .padding-#{$space} { padding: rem($space); }
+  .padding-top-#{$space} { padding-top: rem($space); }
+  .padding-bottom-#{$space} { padding-bottom: rem($space); }
+  .padding-left-#{$space} { padding-left: rem($space); }
+  .padding-right-#{$space} { padding-right: rem($space); }
+}

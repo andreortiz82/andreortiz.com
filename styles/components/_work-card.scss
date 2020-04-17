@@ -1,0 +1,25 @@
+.c-work-card {
+  margin: rem(20);
+  cursor: pointer;
+  @include border-radius;
+  @include shadow(0 1px 5px 0px rgba($almost-black, 0.2));
+
+  &__title {
+    padding: rem(20);
+    font-size: rem(20);
+  }
+
+  &__img {
+    transition: $ttime;
+    opacity: 0.8;
+    img {
+      width: 100%;
+    }
+  }
+
+  &:hover {
+    .c-work-card__img {
+      opacity: 1.0;
+    }
+  }
+}

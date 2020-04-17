@@ -1,0 +1,16 @@
+.c-grid-section {
+  &__title {
+    text-align: center;
+  }
+  &__wrapper {}
+}
+
+.c-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  &__item {
+    flex: 0 0 auto;
+    width: 33.33%;
+  }
+}
