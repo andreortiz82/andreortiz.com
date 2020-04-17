@@ -2,7 +2,6 @@ import Link from 'next/link';
 import Logo from './logo';
 
 const navData = [{title: 'Home', path: '/'},
-                 {title: 'Work', path: '/work'},
                  {title: 'About me', path: '/about'}];
 
 const Header = () => (

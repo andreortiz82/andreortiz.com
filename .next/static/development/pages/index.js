@@ -21,27 +21,27 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 var caseStudies = [{
   title: 'Project A',
-  path: '/work/a',
+  path: '/a',
   cover: 'https://placeimg.com/400/250/any/grayscale'
 }, {
   title: 'Project B',
-  path: '/work/b',
+  path: '/b',
   cover: 'https://placeimg.com/400/250/arch/grayscale'
 }, {
   title: 'Project C',
-  path: '/work/c',
+  path: '/c',
   cover: 'https://placeimg.com/400/250/nature/grayscale'
 }, {
   title: 'Project D',
-  path: '/work/d',
+  path: '/d',
   cover: 'https://placeimg.com/400/250/people/grayscale'
 }, {
   title: 'Project E',
-  path: '/work/e',
+  path: '/e',
   cover: 'https://placeimg.com/400/250/tech/grayscale'
 }, {
   title: 'Project F',
-  path: '/work/f',
+  path: '/f',
   cover: 'https://placeimg.com/400/250/arch/grayscale'
 }];
 
@@ -174,9 +174,6 @@ var navData = [{
   title: 'Home',
   path: '/'
 }, {
-  title: 'Work',
-  path: '/work'
-}, {
   title: 'About me',
   path: '/about'
 }];
@@ -187,7 +184,7 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 3
     }
   }, __jsx("div", {
@@ -195,14 +192,14 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 9,
       columnNumber: 5
     }
   }, __jsx(_logo__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 10,
       columnNumber: 7
     }
   }), __jsx("nav", {
@@ -210,7 +207,7 @@ var Header = function Header() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 11,
       columnNumber: 7
     }
   }, navData.map(function (item, index) {
@@ -220,7 +217,7 @@ var Header = function Header() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14,
+        lineNumber: 13,
         columnNumber: 19
       }
     }, __jsx("a", {
@@ -228,7 +225,7 @@ var Header = function Header() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15,
+        lineNumber: 14,
         columnNumber: 21
       }
     }, item.title));

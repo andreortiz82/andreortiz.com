@@ -1,11 +1,11 @@
 import Link from 'next/link';
 
-const caseStudies = [{title: 'Project A', path: '/work/a', cover: 'https://placeimg.com/400/250/any/grayscale'},
-                     {title: 'Project B', path: '/work/b', cover: 'https://placeimg.com/400/250/arch/grayscale'},
-                     {title: 'Project C', path: '/work/c', cover: 'https://placeimg.com/400/250/nature/grayscale'},
-                     {title: 'Project D', path: '/work/d', cover: 'https://placeimg.com/400/250/people/grayscale'},
-                     {title: 'Project E', path: '/work/e', cover: 'https://placeimg.com/400/250/tech/grayscale'},
-                     {title: 'Project F', path: '/work/f', cover: 'https://placeimg.com/400/250/arch/grayscale'}];
+const caseStudies = [{title: 'Project A', path: '/a', cover: 'https://placeimg.com/400/250/any/grayscale'},
+                     {title: 'Project B', path: '/b', cover: 'https://placeimg.com/400/250/arch/grayscale'},
+                     {title: 'Project C', path: '/c', cover: 'https://placeimg.com/400/250/nature/grayscale'},
+                     {title: 'Project D', path: '/d', cover: 'https://placeimg.com/400/250/people/grayscale'},
+                     {title: 'Project E', path: '/e', cover: 'https://placeimg.com/400/250/tech/grayscale'},
+                     {title: 'Project F', path: '/f', cover: 'https://placeimg.com/400/250/arch/grayscale'}];
 
 const WorkCard = (props) => (
   <div className="c-work-card">
